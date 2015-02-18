@@ -34,7 +34,8 @@ CREATE TABLE IF NOT EXISTS `cards` (
 -- Dumping data for table yugioh.cards: ~105 rows (approximately)
 /*!40000 ALTER TABLE `cards` DISABLE KEYS */;
 INSERT INTO `cards` (`pack`, `id`, `name`, `edition`, `rarity`, `type`) VALUES
-	('DCR', '002', 'Nin-Ken', 'N', 'C', 'Monster');
+	('DCR', '002', 'Nin-Ken', 'N', 'C', 'Monster'),
+	('DCR', '004', 'Arsenal Summoner', 'N', 'C', 'Monster');
 /*!40000 ALTER TABLE `cards` ENABLE KEYS */;
 
 
