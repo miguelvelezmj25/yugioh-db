@@ -36,7 +36,8 @@ CREATE TABLE IF NOT EXISTS `cards` (
 INSERT INTO `cards` (`pack`, `id`, `name`, `edition`, `rarity`, `type`) VALUES
 	('DCR', '002', 'Nin-Ken', 'N', 'C', 'Monster'),
 	('DCR', '004', 'Arsenal Summoner', 'N', 'C', 'Monster'),
-	('DCR', '005', 'Guardian Elma', 'N', 'C', 'Monster');
+	('DCR', '005', 'Guardian Elma', 'N', 'C', 'Monster'),
+	('DCR', '027', 'D. D. Warrior Lady', 'N', 'SR', 'Monster');
 /*!40000 ALTER TABLE `cards` ENABLE KEYS */;
 
 
