@@ -40,7 +40,8 @@ INSERT INTO `cards` (`pack`, `id`, `name`, `edition`, `rarity`, `type`) VALUES
 	('DCR', '027', 'D. D. Warrior Lady', 'N', 'SR', 'Monster'),
 	('DCR', '078', 'Kelber', 'N', 'C', 'Monster'),
 	('DCR', '081', 'Legendary Flame Lord', 'N', 'R', 'Ritual'),
-	('IOC', '001', 'Ojama', 'N', 'C', 'Monster');
+	('IOC', '001', 'Ojama', 'N', 'C', 'Monster'),
+	('IOC', '004', 'Terrorking Salmon', 'N', 'C', 'Monster');
 /*!40000 ALTER TABLE `cards` ENABLE KEYS */;
 
 
