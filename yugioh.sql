@@ -46,7 +46,8 @@ INSERT INTO `cards` (`pack`, `id`, `name`, `edition`, `rarity`, `type`) VALUES
 	('IOC', '019', 'Inferno', 'N', 'C', 'Monster'),
 	('IOC', '062', 'Burning Algae', 'N', 'C', 'Monster'),
 	('LC01', 'EN001', 'Obelisk The Tormentor', 'LE', 'UR', 'Divine'),
-	('LC01', 'EN002', 'Slifer The Sky Dragon', 'LE', 'UR', 'Divine');
+	('LC01', 'EN002', 'Slifer The Sky Dragon', 'LE', 'UR', 'Divine'),
+	('LC01', 'EN003', 'The Winged Dragon of Ra', 'LE', 'UR', 'Divine');
 /*!40000 ALTER TABLE `cards` ENABLE KEYS */;
 
 
