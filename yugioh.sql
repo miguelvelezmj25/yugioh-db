@@ -2,11 +2,11 @@
 -- Host:                         127.0.0.1
 -- Server version:               5.6.21-log - MySQL Community Server (GPL)
 -- Server OS:                    Win64
--- HeidiSQL Version:             8.3.0.4694
+-- HeidiSQL Version:             9.1.0.4867
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET NAMES utf8 */;
+/*!40101 SET NAMES utf8mb4 */;
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
@@ -31,7 +31,7 @@ CREATE TABLE IF NOT EXISTS `cards` (
   CONSTRAINT `FK_cards_rarities` FOREIGN KEY (`rarity`) REFERENCES `rarities` (`rarity`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Dumping data for table yugioh.cards: ~105 rows (approximately)
+-- Dumping data for table yugioh.cards: ~141 rows (approximately)
 /*!40000 ALTER TABLE `cards` DISABLE KEYS */;
 INSERT INTO `cards` (`pack`, `id`, `name`, `edition`, `rarity`, `type`) VALUES
 	('DCR', '002', 'Nin-Ken', 'N', 'C', 'Monster'),
@@ -75,7 +75,7 @@ CREATE TABLE IF NOT EXISTS `packs` (
   PRIMARY KEY (`pack`,`pack_name`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Dumping data for table yugioh.packs: ~11 rows (approximately)
+-- Dumping data for table yugioh.packs: ~12 rows (approximately)
 /*!40000 ALTER TABLE `packs` DISABLE KEYS */;
 INSERT INTO `packs` (`pack`, `pack_name`) VALUES
 	('DCR', 'Dark Crisis'),
@@ -89,8 +89,14 @@ INSERT INTO `packs` (`pack`, `pack_name`) VALUES
 	('MRD', 'Metal Raiders'),
 	('MRL', 'Spell Ruler'),
 	('PSV', 'Pharaoh\'s Servant'),
+	('SDHS', 'Structure Deck: Hero\'s Strike'),
+	('SDJ', 'Starter Deck Joey'),
+	('SDK', 'Starter Deck Kaiba'),
 	('SDLI', 'Realm of Light Structure Deck'),
+	('SDP', 'Starter Deck Pegasus'),
 	('SDSC', 'Spellcaster\'s Command Structure Deck'),
+	('SDY', 'Starter Deck Yugi'),
+	('SKE', 'Starter Deck Kaiba Evolution'),
 	('SRL', 'Spell Ruler');
 /*!40000 ALTER TABLE `packs` ENABLE KEYS */;
 
