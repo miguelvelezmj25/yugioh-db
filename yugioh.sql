@@ -49,7 +49,8 @@ INSERT INTO `cards` (`pack`, `id`, `name`, `edition`, `rarity`, `type`) VALUES
 	('LC01', 'EN002', 'Slifer The Sky Dragon', 'LE', 'UR', 'Divine'),
 	('LC01', 'EN003', 'The Winged Dragon of Ra', 'LE', 'UR', 'Divine'),
 	('LC01', 'EN004', 'Blue-Eyes White Dragon', 'LE', 'UR', 'Monster'),
-	('LC01', 'EN005', 'Dark Magician', 'LE', 'UR', 'Monster');
+	('LC01', 'EN005', 'Dark Magician', 'LE', 'UR', 'Monster'),
+	('LC01', 'EN006', 'Red-Eyes B. Dragon', 'LE', 'UR', 'Monster');
 /*!40000 ALTER TABLE `cards` ENABLE KEYS */;
 
 
