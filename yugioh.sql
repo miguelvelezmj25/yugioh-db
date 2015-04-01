@@ -59,7 +59,8 @@ INSERT INTO `cards` (`pack`, `id`, `name`, `edition`, `rarity`, `type`) VALUES
 	('LC03', 'EN006', 'Token', 'LE', 'UR', 'Token'),
 	('LC03', 'EN007', 'Token', 'LE', 'UR', 'Token'),
 	('LC04', 'EN001', 'Blue Flame Swordsman', 'LE', 'UR', 'Monster'),
-	('LC04', 'EN002', 'Harpie Lady Phoenix Formation', 'LE', 'UR', 'Spell');
+	('LC04', 'EN002', 'Harpie Lady Phoenix Formation', 'LE', 'UR', 'Spell'),
+	('LC04', 'EN003', 'Card of Last Will', 'LE', 'UR', 'Trap');
 /*!40000 ALTER TABLE `cards` ENABLE KEYS */;
 
 
