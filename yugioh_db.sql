@@ -1,13 +1,13 @@
 # ************************************************************
 # Sequel Pro SQL dump
-# Version 4096
+# Version 4500
 #
 # http://www.sequelpro.com/
-# http://code.google.com/p/sequel-pro/
+# https://github.com/sequelpro/sequelpro
 #
-# Host: 127.0.0.1 (MySQL 5.6.26)
+# Host: 127.0.0.1 (MySQL 5.7.10)
 # Database: yugioh_db
-# Generation Time: 2015-09-13 16:18:39 +0000
+# Generation Time: 2016-02-06 14:30:47 +0000
 # ************************************************************
 
 
@@ -270,6 +270,7 @@ LOCK TABLES `packs` WRITE;
 INSERT INTO `packs` (`pack`, `pack_name`)
 VALUES
 	('DCR','Dark Crisis'),
+	('EDSD','Emperor of Darkness Structue Deck'),
 	('IOC','Invasion of Chaos'),
 	('LC01','Legendary Collection: Gameboard Edition'),
 	('LC03','Legendary Collection 3 Yugi\'s World'),
