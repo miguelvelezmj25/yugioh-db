@@ -7,7 +7,7 @@
 #
 # Host: 127.0.0.1 (MySQL 5.7.10)
 # Database: yugioh_db
-# Generation Time: 2016-02-07 16:00:30 +0000
+# Generation Time: 2016-02-07 16:31:18 +0000
 # ************************************************************
 
 
@@ -144,7 +144,11 @@ VALUES
 	('MRD','067','Dragon Piper','N','C','Monster'),
 	('MRD','093','Bickuribox','N','C','Fusion'),
 	('MRD','104','Yado Karu','N','C','Monster'),
+	('PGL2','EN011','Masked HERO Anki','1E','GS','Fusion'),
 	('PGL2','EN020','Stardust Re-Spark','1E','GS','Trap'),
+	('PGL2','EN022','Right Leg of the Forbidden One','1E','GR','Monster'),
+	('PGL2','EN023','Left Leg of the Forbidden One','1E','GR','Monster'),
+	('PGL2','EN024','Right Arm of the Forbidden One','1E','GR','Monster'),
 	('PGL2','EN063','Ring of Destruction','1E','GR','Trap'),
 	('PGL2','EN065','Compulsory Evacuation Device','1E','GR','Trap'),
 	('PGL2','EN066','Exchange of the Spirit','1E','GR','Trap'),
@@ -152,7 +156,13 @@ VALUES
 	('PGL2','EN068','Solemn Warning','1E','GR','Trap'),
 	('PGL2','EN069','Traptrix Trap Hole Nightmare','1E','GR','Trap'),
 	('PGL2','EN070','Crush Card Virus','1E','GR','Trap'),
+	('PGL2','EN079','Gladiator Beast Gyzarus','1E','Gr','Fusion'),
+	('PGL2','EN080','Blue-Eyes White Dragon','1E','GR','Monster'),
 	('PGL2','EN090','Call of the Haunted','1E','GR','Trap'),
+	('PGLD','EN015','Dragonecro Nethersoul Dragon','N','GS','Fusion'),
+	('PGLD','EN056','Chimeratech','1E','GR','Fusion'),
+	('PGLD','EN069','Bottomless Trap Hole','1E','GR','Trap'),
+	('PGLD','EN080','Icarus Attack','N','GR','Trap'),
 	('PSV','002','Three-Headed Geedo','N','C','Monster'),
 	('PSV','040','Morphing Jar #2','N','R','Monster'),
 	('PSV','046','Kiseitai','N','C','Monster'),
@@ -289,6 +299,7 @@ VALUES
 	('MRD','Metal Raiders'),
 	('MRL','Spell Ruler'),
 	('PGL2','Premium Gold: Return of the Bling '),
+	('PGLD','Premium Gold'),
 	('PSV','Pharaoh\'s Servant'),
 	('SDBE','Saga of Blue-Eyes White Dragon'),
 	('SDHS','Structure Deck: Hero\'s Strike'),
