@@ -7,7 +7,7 @@
 #
 # Host: 127.0.0.1 (MySQL 5.7.10)
 # Database: yugioh_db
-# Generation Time: 2016-02-06 14:30:47 +0000
+# Generation Time: 2016-02-07 16:00:30 +0000
 # ************************************************************
 
 
@@ -144,6 +144,15 @@ VALUES
 	('MRD','067','Dragon Piper','N','C','Monster'),
 	('MRD','093','Bickuribox','N','C','Fusion'),
 	('MRD','104','Yado Karu','N','C','Monster'),
+	('PGL2','EN020','Stardust Re-Spark','1E','GS','Trap'),
+	('PGL2','EN063','Ring of Destruction','1E','GR','Trap'),
+	('PGL2','EN065','Compulsory Evacuation Device','1E','GR','Trap'),
+	('PGL2','EN066','Exchange of the Spirit','1E','GR','Trap'),
+	('PGL2','EN067','Karma Cut','1E','Gr','Trap'),
+	('PGL2','EN068','Solemn Warning','1E','GR','Trap'),
+	('PGL2','EN069','Traptrix Trap Hole Nightmare','1E','GR','Trap'),
+	('PGL2','EN070','Crush Card Virus','1E','GR','Trap'),
+	('PGL2','EN090','Call of the Haunted','1E','GR','Trap'),
 	('PSV','002','Three-Headed Geedo','N','C','Monster'),
 	('PSV','040','Morphing Jar #2','N','R','Monster'),
 	('PSV','046','Kiseitai','N','C','Monster'),
@@ -270,7 +279,6 @@ LOCK TABLES `packs` WRITE;
 INSERT INTO `packs` (`pack`, `pack_name`)
 VALUES
 	('DCR','Dark Crisis'),
-	('EDSD','Emperor of Darkness Structue Deck'),
 	('IOC','Invasion of Chaos'),
 	('LC01','Legendary Collection: Gameboard Edition'),
 	('LC03','Legendary Collection 3 Yugi\'s World'),
@@ -280,7 +288,9 @@ VALUES
 	('LOB','Legend of Blue-Eyes White Dragon'),
 	('MRD','Metal Raiders'),
 	('MRL','Spell Ruler'),
+	('PGL2','Premium Gold: Return of the Bling '),
 	('PSV','Pharaoh\'s Servant'),
+	('SDBE','Saga of Blue-Eyes White Dragon'),
 	('SDHS','Structure Deck: Hero\'s Strike'),
 	('SDJ','Starter Deck Joey'),
 	('SDK','Starter Deck Kaiba'),
@@ -289,7 +299,10 @@ VALUES
 	('SDSC','Spellcaster\'s Command Structure Deck'),
 	('SDY','Starter Deck Yugi'),
 	('SKE','Starter Deck Kaiba Evolution'),
-	('SRL','Spell Ruler');
+	('SR01','Emperor of Darkness Structue Deck'),
+	('SRL','Spell Ruler'),
+	('YSKR','Starter Deck Kaiba Reloaded'),
+	('YSYR','Starter Deck Yugi Reloaded');
 
 /*!40000 ALTER TABLE `packs` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -313,6 +326,8 @@ LOCK TABLES `rarities` WRITE;
 INSERT INTO `rarities` (`rarity`, `rarity_name`, `Description`)
 VALUES
 	('C','Common','Black or white name and no holofoil on the card name or image'),
+	('GR','Gold Rare','Gold foil over the card name and holographic gold foil artwork like an Ultra Rare, but also features gold foil over the artwork frame, text border, and card border'),
+	('GS','Gold Secret','Same gold foil patterns as Gold Rare over the card border, card name, artwork, artwork frame, Level/Rank stars (for monsters), and text box border, but also features the Secret Rare texture pattern wherever this foil appears'),
 	('R','Rare','Silver card name and not holofoil image'),
 	('SE','Secret Rare','Holographic silver card name and parallel holofoil image'),
 	('SR','Super Rare','Non-foil card name and foil card image'),
