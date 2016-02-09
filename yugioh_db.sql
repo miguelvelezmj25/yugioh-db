@@ -7,7 +7,7 @@
 #
 # Host: 127.0.0.1 (MySQL 5.7.10)
 # Database: yugioh_db
-# Generation Time: 2016-02-07 16:31:18 +0000
+# Generation Time: 2016-02-09 00:28:38 +0000
 # ************************************************************
 
 
@@ -56,7 +56,7 @@ VALUES
 	('IOC','013','Berserk Gorilla','N','R','Monster'),
 	('IOC','019','Inferno','N','C','Monster'),
 	('IOC','062','Burning Algae','N','C','Monster'),
-	('LC01','EN001','Obelisk The Tormentor','LE','UR','Divine'),
+	('LC01','EN001','Obelisk the Tormentor','LE','UR','Divine'),
 	('LC01','EN002','Slifer The Sky Dragon','LE','UR','Divine'),
 	('LC01','EN003','The Winged Dragon of Ra','LE','UR','Divine'),
 	('LC01','EN004','Blue-Eyes White Dragon','LE','UR','Monster'),
@@ -169,6 +169,7 @@ VALUES
 	('PSV','058','Dark Bat','N','C','Monster'),
 	('PSV','077','Sword Hunter','N','C','Monster'),
 	('PSV','098','Souls of the Forgotten','N','C','Monster'),
+	('SDBE','EN040','Azure-Eyes Silver Dragon','N','UR','Synchro'),
 	('SDHS','EN022','Mask Change','1E','C','Spell'),
 	('SDHS','EN041','Contrast HERO Chaos','1E','UR','Fusion'),
 	('SDHS','EN042','Masked HERO Koga','1E','SR','Fusion'),
@@ -236,12 +237,22 @@ VALUES
 	('SKE','024','Paladin of White Dragon','N','C','Ritual'),
 	('SKE','025','White Dragon Ritual','N','C','Spell'),
 	('SKE','041','Shadow Spell','N','SR','Trap'),
+	('SR01','ENTKN','Token','1E','C','Token'),
 	('SRL','012','Maha Vailo','N','SR','Monster'),
 	('SRL','015','Minar','N','C','Monster'),
 	('SRL','016','Griggle','N','C','Monster'),
 	('SRL','042','Ceremonial Bell','N','C','Monster'),
 	('SRL','043','Rush Recklessly','N','R','Spell'),
-	('SRL','082','Flash Assailant','N','C','Monster');
+	('SRL','082','Flash Assailant','N','C','Monster'),
+	('YGLD','DK','Duelist Kingdom','N','UR','Hist'),
+	('YGLD','ENA01','Black Luster Soldier','1E','C','Ritual'),
+	('YGLD','ENA41','Gaia the Dragon Champion','N','C','Fusion'),
+	('YGLD','ENG01','Slifer the Sky Dragon','LE','UR','Divine'),
+	('YGLD','ENG02','Obelisk the Tormentor','LE','UR','Divine'),
+	('YGLD','ENG03','The Winged Dragon of Ra','LE','UR','Divine'),
+	('YGLD','ENTKN','Token','LE','UR','Token'),
+	('YGLD','GKH','Glory of the King\'s Hand','N','UR','Hist'),
+	('YGLD','SSK','Set Sail for the Kingdom','N','UR','Hist');
 
 /*!40000 ALTER TABLE `cards` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -312,6 +323,7 @@ VALUES
 	('SKE','Starter Deck Kaiba Evolution'),
 	('SR01','Emperor of Darkness Structue Deck'),
 	('SRL','Spell Ruler'),
+	('YGLD','Yugi\'s Legendary Decks'),
 	('YSKR','Starter Deck Kaiba Reloaded'),
 	('YSYR','Starter Deck Yugi Reloaded');
 
