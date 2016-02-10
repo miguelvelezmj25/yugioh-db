@@ -7,7 +7,7 @@
 #
 # Host: 127.0.0.1 (MySQL 5.7.10)
 # Database: yugioh_db
-# Generation Time: 2016-02-09 00:28:38 +0000
+# Generation Time: 2016-02-10 00:38:37 +0000
 # ************************************************************
 
 
@@ -169,6 +169,14 @@ VALUES
 	('PSV','058','Dark Bat','N','C','Monster'),
 	('PSV','077','Sword Hunter','N','C','Monster'),
 	('PSV','098','Souls of the Forgotten','N','C','Monster'),
+	('SDBE','EN0008','Darkstorm Dragon','N','C','Monster'),
+	('SDBE','EN006','Maiden with Eyes of Blue','N','SR','Monster'),
+	('SDBE','EN007','Rider of the Storm Winds','N','C','Monster'),
+	('SDBE','EN009','Kaiser Glider','N','C','Monster'),
+	('SDBE','EN010','Hieratic Dragon of Tefnuit','N','C','Monster'),
+	('SDBE','EN011','Mirage Dragon','N','C','Monster'),
+	('SDBE','EN012','Divine Dragon Apocralyph','N','C','Monster'),
+	('SDBE','EN013','The White Stone of Legend','N','C','Monster'),
 	('SDBE','EN040','Azure-Eyes Silver Dragon','N','UR','Synchro'),
 	('SDHS','EN022','Mask Change','1E','C','Spell'),
 	('SDHS','EN041','Contrast HERO Chaos','1E','UR','Fusion'),
