@@ -7,7 +7,7 @@
 #
 # Host: 127.0.0.1 (MySQL 5.7.10)
 # Database: yugioh_db
-# Generation Time: 2016-02-10 00:38:37 +0000
+# Generation Time: 2016-02-10 20:44:04 +0000
 # ************************************************************
 
 
@@ -177,6 +177,10 @@ VALUES
 	('SDBE','EN011','Mirage Dragon','N','C','Monster'),
 	('SDBE','EN012','Divine Dragon Apocralyph','N','C','Monster'),
 	('SDBE','EN013','The White Stone of Legend','N','C','Monster'),
+	('SDBE','EN014','Kaibaman','N','C','Monster'),
+	('SDBE','EN015','Herald of Creation','N','C','Monster'),
+	('SDBE','EN017','Honest','N','C','Monster'),
+	('SDBE','EN018','Shining Angel','N','C','Monster'),
 	('SDBE','EN040','Azure-Eyes Silver Dragon','N','UR','Synchro'),
 	('SDHS','EN022','Mask Change','1E','C','Spell'),
 	('SDHS','EN041','Contrast HERO Chaos','1E','UR','Fusion'),
@@ -196,6 +200,7 @@ VALUES
 	('SDLI','EN024','Ligthsworn Sanctuary','1E','UR','Spell'),
 	('SDLI','EN036','Michael, The Arch-Ligthsworn','1E','UR','Synchro'),
 	('SDP','001','Relinquished','N','UR','Ritual'),
+	('SDP','012','Jigen Bakudan','N','C','Monster'),
 	('SDP','020','Blue-Eyes Toon Dragon','N','C','Toon'),
 	('SDP','021','Toon Summoned Skull','N','C','Toon'),
 	('SDP','022','Manga Ryu-Ran','N','C','Toon'),
@@ -240,6 +245,7 @@ VALUES
 	('SDY','006','Dark Magician','N','UR','Monster'),
 	('SDY','041','Soul Exchange','N','SR','Spell'),
 	('SDY','042','Card Destruction','N','SR','Spell'),
+	('SDY','046','Man-Eater Bug','N','C','Monster'),
 	('SKE','001','Blue-Eyes White Dragon','N','SR','Monster'),
 	('SKE','015','Kaiser Sea Horse','N','UR','Monster'),
 	('SKE','024','Paladin of White Dragon','N','C','Ritual'),
