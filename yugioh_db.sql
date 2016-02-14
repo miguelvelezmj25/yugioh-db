@@ -7,7 +7,7 @@
 #
 # Host: 127.0.0.1 (MySQL 5.7.10)
 # Database: yugioh_db
-# Generation Time: 2016-02-10 20:44:04 +0000
+# Generation Time: 2016-02-14 16:06:36 +0000
 # ************************************************************
 
 
@@ -170,6 +170,7 @@ VALUES
 	('PSV','077','Sword Hunter','N','C','Monster'),
 	('PSV','098','Souls of the Forgotten','N','C','Monster'),
 	('SDBE','EN0008','Darkstorm Dragon','N','C','Monster'),
+	('SDBE','EN001','Blue-Eyes White Dragon','N','UR','Monster'),
 	('SDBE','EN006','Maiden with Eyes of Blue','N','SR','Monster'),
 	('SDBE','EN007','Rider of the Storm Winds','N','C','Monster'),
 	('SDBE','EN009','Kaiser Glider','N','C','Monster'),
@@ -181,6 +182,7 @@ VALUES
 	('SDBE','EN015','Herald of Creation','N','C','Monster'),
 	('SDBE','EN017','Honest','N','C','Monster'),
 	('SDBE','EN018','Shining Angel','N','C','Monster'),
+	('SDBE','EN019','Dragon Shrine','N','SR','Spell'),
 	('SDBE','EN040','Azure-Eyes Silver Dragon','N','UR','Synchro'),
 	('SDHS','EN022','Mask Change','1E','C','Spell'),
 	('SDHS','EN041','Contrast HERO Chaos','1E','UR','Fusion'),
@@ -251,6 +253,11 @@ VALUES
 	('SKE','024','Paladin of White Dragon','N','C','Ritual'),
 	('SKE','025','White Dragon Ritual','N','C','Spell'),
 	('SKE','041','Shadow Spell','N','SR','Trap'),
+	('SR01','EN000','Ehther the Heavenly Monarch','1E','UR','Monster'),
+	('SR01','EN001','Erebus the Underworld Monarch','1E','UR','Monster'),
+	('SR01','EN002','Eidos the Underworld Squire','1E','SR','Monster'),
+	('SR01','EN003','Edea the Heavenly Squire','1E','SR','Monster'),
+	('SR01','EN023','Pantheism of the Monarchs','1E','SR','Spell'),
 	('SR01','ENTKN','Token','1E','C','Token'),
 	('SRL','012','Maha Vailo','N','SR','Monster'),
 	('SRL','015','Minar','N','C','Monster'),
@@ -259,8 +266,16 @@ VALUES
 	('SRL','043','Rush Recklessly','N','R','Spell'),
 	('SRL','082','Flash Assailant','N','C','Monster'),
 	('YGLD','DK','Duelist Kingdom','N','UR','Hist'),
+	('YGLD','ENA00','Electromagnetic Turtle','LE','SE','Monster'),
 	('YGLD','ENA01','Black Luster Soldier','1E','C','Ritual'),
+	('YGLD','ENA17','Exodia the Forbidden One','1E','UR','Monster'),
+	('YGLD','ENA18','Right Leg of the Forbidden One','1E','UR','Monster'),
+	('YGLD','ENA19','Left Leg of the Forbidden One','1E','UR','Monster'),
+	('YGLD','ENA20','Right Arm of the Forbidden One','1E','UR','Monster'),
+	('YGLD','ENA21','Left Arms of the Forbidden One','1E','UR','Monster'),
 	('YGLD','ENA41','Gaia the Dragon Champion','N','C','Fusion'),
+	('YGLD','ENB00','Dark Renewal','LE','SE','Trap'),
+	('YGLD','ENC00','Black Illusion','LE','SE','Trap'),
 	('YGLD','ENG01','Slifer the Sky Dragon','LE','UR','Divine'),
 	('YGLD','ENG02','Obelisk the Tormentor','LE','UR','Divine'),
 	('YGLD','ENG03','The Winged Dragon of Ra','LE','UR','Divine'),
