@@ -7,7 +7,7 @@
 #
 # Host: 127.0.0.1 (MySQL 5.7.10)
 # Database: yugioh_db
-# Generation Time: 2016-02-14 16:06:36 +0000
+# Generation Time: 2016-02-15 22:28:57 +0000
 # ************************************************************
 
 
@@ -171,6 +171,10 @@ VALUES
 	('PSV','098','Souls of the Forgotten','N','C','Monster'),
 	('SDBE','EN0008','Darkstorm Dragon','N','C','Monster'),
 	('SDBE','EN001','Blue-Eyes White Dragon','N','UR','Monster'),
+	('SDBE','EN002','Rabidragon','N','C','Monster'),
+	('SDBE','EN003','Alexandrite Dragon','N','C','Monster'),
+	('SDBE','EN004','Luster Dragon','N','C','Monster'),
+	('SDBE','EN005','Flamvell Guard','N','C','Monster'),
 	('SDBE','EN006','Maiden with Eyes of Blue','N','SR','Monster'),
 	('SDBE','EN007','Rider of the Storm Winds','N','C','Monster'),
 	('SDBE','EN009','Kaiser Glider','N','C','Monster'),
@@ -249,6 +253,10 @@ VALUES
 	('SDY','042','Card Destruction','N','SR','Spell'),
 	('SDY','046','Man-Eater Bug','N','C','Monster'),
 	('SKE','001','Blue-Eyes White Dragon','N','SR','Monster'),
+	('SKE','004','Rogue Doll','N','C','Monster'),
+	('SKE','006','Uraby','N','C','Monster'),
+	('SKE','007','Mystic Horseman','N','C','Monster'),
+	('SKE','010','Skull Red Bird','N','C','Monster'),
 	('SKE','015','Kaiser Sea Horse','N','UR','Monster'),
 	('SKE','024','Paladin of White Dragon','N','C','Ritual'),
 	('SKE','025','White Dragon Ritual','N','C','Spell'),
