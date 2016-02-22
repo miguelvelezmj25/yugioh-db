@@ -1,13 +1,13 @@
 # ************************************************************
 # Sequel Pro SQL dump
-# Version 4500
+# Version 4529
 #
 # http://www.sequelpro.com/
 # https://github.com/sequelpro/sequelpro
 #
 # Host: 127.0.0.1 (MySQL 5.7.10)
 # Database: yugioh_db
-# Generation Time: 2016-02-15 22:28:57 +0000
+# Generation Time: 2016-02-22 02:02:28 +0000
 # ************************************************************
 
 
@@ -28,7 +28,7 @@ DROP TABLE IF EXISTS `cards`;
 CREATE TABLE `cards` (
   `pack` varchar(38) NOT NULL,
   `id` varchar(38) NOT NULL,
-  `name` varchar(38) NOT NULL,
+  `name` varchar(45) NOT NULL DEFAULT '',
   `edition` varchar(38) NOT NULL,
   `rarity` varchar(38) NOT NULL,
   `type` varchar(38) NOT NULL,
@@ -139,8 +139,10 @@ VALUES
 	('LOB','123','Left Arm of The Forbidden One','N','UR','Monster'),
 	('LOB','124','Exodia The Forbidden One','N','UR','Monster'),
 	('MRD','001','Feral Imp','N','C','Monster'),
+	('MRD','002','Winged Dragon, Guardian of the Fortress #1','N','C','Monster'),
 	('MRD','019','Masked Sorcerer','N','R','Monster'),
 	('MRD','033','Legoun','N','C','Monster'),
+	('MRD','042','Rainbow Flower','N','C','Monster'),
 	('MRD','067','Dragon Piper','N','C','Monster'),
 	('MRD','093','Bickuribox','N','C','Fusion'),
 	('MRD','104','Yado Karu','N','C','Monster'),
@@ -168,6 +170,7 @@ VALUES
 	('PSV','046','Kiseitai','N','C','Monster'),
 	('PSV','058','Dark Bat','N','C','Monster'),
 	('PSV','077','Sword Hunter','N','C','Monster'),
+	('PSV','093','The All-Seeing White Tiger','N','C','Monster'),
 	('PSV','098','Souls of the Forgotten','N','C','Monster'),
 	('SDBE','EN0008','Darkstorm Dragon','N','C','Monster'),
 	('SDBE','EN001','Blue-Eyes White Dragon','N','UR','Monster'),
@@ -199,6 +202,7 @@ VALUES
 	('SDJ','015','Time Wizard','N','C','Monster'),
 	('SDJ','023','Thousand Dragon','N','C','Fusion'),
 	('SDK','001','Blue-Eyes White Dragon','N','UR','Monster'),
+	('SDK','026','La Jinn the Mystical Genie of the Lamp','N','C','Monster'),
 	('SDK','041','Lord of D.','N','SR','Monster'),
 	('SDK','042','The Flute of Summoning Dragon','N','SR','Spell'),
 	('SDLI','EN002','Minerva, Ligthsworn Maiden','1E','SR','Monster'),
@@ -249,6 +253,7 @@ VALUES
 	('SDSC','EN038','Magic Cylinder','N','C','Trap'),
 	('SDY','004','Summoned Skull','N','C','Monster'),
 	('SDY','006','Dark Magician','N','UR','Monster'),
+	('SDY','014','Dragon Zombie','N','C','Monster'),
 	('SDY','041','Soul Exchange','N','SR','Spell'),
 	('SDY','042','Card Destruction','N','SR','Spell'),
 	('SDY','046','Man-Eater Bug','N','C','Monster'),
@@ -257,6 +262,9 @@ VALUES
 	('SKE','006','Uraby','N','C','Monster'),
 	('SKE','007','Mystic Horseman','N','C','Monster'),
 	('SKE','010','Skull Red Bird','N','C','Monster'),
+	('SKe','011','Hyozanryu','N','C','Monster'),
+	('SKE','012','Opticlops','N','C','Monster'),
+	('SKE','014','Luster Dragon #2','N','C','Monster'),
 	('SKE','015','Kaiser Sea Horse','N','UR','Monster'),
 	('SKE','024','Paladin of White Dragon','N','C','Ritual'),
 	('SKE','025','White Dragon Ritual','N','C','Spell'),
@@ -272,6 +280,7 @@ VALUES
 	('SRL','016','Griggle','N','C','Monster'),
 	('SRL','042','Ceremonial Bell','N','C','Monster'),
 	('SRL','043','Rush Recklessly','N','R','Spell'),
+	('SRL','058','Stone Ogre Grotto','N','C','Monster'),
 	('SRL','082','Flash Assailant','N','C','Monster'),
 	('YGLD','DK','Duelist Kingdom','N','UR','Hist'),
 	('YGLD','ENA00','Electromagnetic Turtle','LE','SE','Monster'),
