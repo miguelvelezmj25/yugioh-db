@@ -7,7 +7,7 @@
 #
 # Host: 127.0.0.1 (MySQL 5.7.10)
 # Database: yugioh_db
-# Generation Time: 2016-02-22 02:02:28 +0000
+# Generation Time: 2016-02-23 01:00:57 +0000
 # ************************************************************
 
 
@@ -138,11 +138,13 @@ VALUES
 	('LOB','122','Right Arm of The Forbidden One','N','UR','Monster'),
 	('LOB','123','Left Arm of The Forbidden One','N','UR','Monster'),
 	('LOB','124','Exodia The Forbidden One','N','UR','Monster'),
+	('MFC','083','Dark Cat with White Tail','1E','C','Monster'),
 	('MRD','001','Feral Imp','N','C','Monster'),
 	('MRD','002','Winged Dragon, Guardian of the Fortress #1','N','C','Monster'),
 	('MRD','019','Masked Sorcerer','N','R','Monster'),
 	('MRD','033','Legoun','N','C','Monster'),
 	('MRD','042','Rainbow Flower','N','C','Monster'),
+	('MRD','048','Electric Lizard','N','C','Monster'),
 	('MRD','067','Dragon Piper','N','C','Monster'),
 	('MRD','093','Bickuribox','N','C','Fusion'),
 	('MRD','104','Yado Karu','N','C','Monster'),
@@ -199,7 +201,9 @@ VALUES
 	('SDHS','EN045','Elemental HERO Great Tornado','1E','C','Fusion'),
 	('SDJ','001','Red-Eyes B. Dragon','N','UR','Monster'),
 	('SDJ','003','Baby Dragon','N','C','Monster'),
+	('SDJ','014','Milus Radiant','N','C','Monster'),
 	('SDJ','015','Time Wizard','N','C','Monster'),
+	('SDJ','021','White Magical Hat','N','C','Monster'),
 	('SDJ','023','Thousand Dragon','N','C','Fusion'),
 	('SDK','001','Blue-Eyes White Dragon','N','UR','Monster'),
 	('SDK','026','La Jinn the Mystical Genie of the Lamp','N','C','Monster'),
@@ -256,6 +260,7 @@ VALUES
 	('SDY','014','Dragon Zombie','N','C','Monster'),
 	('SDY','041','Soul Exchange','N','SR','Spell'),
 	('SDY','042','Card Destruction','N','SR','Spell'),
+	('SDY','043','Trap Master','N','C','Monster'),
 	('SDY','046','Man-Eater Bug','N','C','Monster'),
 	('SKE','001','Blue-Eyes White Dragon','N','SR','Monster'),
 	('SKE','004','Rogue Doll','N','C','Monster'),
@@ -266,6 +271,11 @@ VALUES
 	('SKE','012','Opticlops','N','C','Monster'),
 	('SKE','014','Luster Dragon #2','N','C','Monster'),
 	('SKE','015','Kaiser Sea Horse','N','UR','Monster'),
+	('SKE','018','Trap Master','N','C','Monster'),
+	('SKE','019','Hane-Hane','N','C','Monster'),
+	('SKE','020','Witch of the Black Forest','N','C','Monster'),
+	('Ske','021','Mystic Tomato','N','C','Monster'),
+	('SKE','022','Mad Sword Beast','N','C','Monster'),
 	('SKE','024','Paladin of White Dragon','N','C','Ritual'),
 	('SKE','025','White Dragon Ritual','N','C','Spell'),
 	('SKE','041','Shadow Spell','N','SR','Trap'),
@@ -285,11 +295,15 @@ VALUES
 	('YGLD','DK','Duelist Kingdom','N','UR','Hist'),
 	('YGLD','ENA00','Electromagnetic Turtle','LE','SE','Monster'),
 	('YGLD','ENA01','Black Luster Soldier','1E','C','Ritual'),
+	('YGLD','ENA02','Black Luster Soldier - Envoy of the Beginning','1E','C','Monster'),
+	('YGLD','ENA04','Dark Magician Girl','1E','C','Monster'),
+	('YGLD','ENA08','Catapult Turtle','1E','C','Monster'),
 	('YGLD','ENA17','Exodia the Forbidden One','1E','UR','Monster'),
 	('YGLD','ENA18','Right Leg of the Forbidden One','1E','UR','Monster'),
 	('YGLD','ENA19','Left Leg of the Forbidden One','1E','UR','Monster'),
 	('YGLD','ENA20','Right Arm of the Forbidden One','1E','UR','Monster'),
 	('YGLD','ENA21','Left Arms of the Forbidden One','1E','UR','Monster'),
+	('YGLD','ENA22','Kuriboh','1E','C','Monster'),
 	('YGLD','ENA41','Gaia the Dragon Champion','N','C','Fusion'),
 	('YGLD','ENB00','Dark Renewal','LE','SE','Trap'),
 	('YGLD','ENC00','Black Illusion','LE','SE','Trap'),
@@ -353,6 +367,7 @@ VALUES
 	('LCJW','Legendary Collection 4 Joey\'s World Mega Pack'),
 	('LCYW','Legendary Collection 3 Yugi\'s World Mega Pack'),
 	('LOB','Legend of Blue-Eyes White Dragon'),
+	('MFC','Magician\'s Force'),
 	('MRD','Metal Raiders'),
 	('MRL','Spell Ruler'),
 	('PGL2','Premium Gold: Return of the Bling '),
