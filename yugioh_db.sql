@@ -7,7 +7,7 @@
 #
 # Host: 127.0.0.1 (MySQL 5.7.10)
 # Database: yugioh_db
-# Generation Time: 2016-02-23 01:00:57 +0000
+# Generation Time: 2016-02-24 01:21:42 +0000
 # ************************************************************
 
 
@@ -149,10 +149,14 @@ VALUES
 	('MRD','093','Bickuribox','N','C','Fusion'),
 	('MRD','104','Yado Karu','N','C','Monster'),
 	('PGL2','EN011','Masked HERO Anki','1E','GS','Fusion'),
+	('PGL2','EN012','Blackwing Tamer - Obsidian Hawk Joe','1E','GS','Synchro'),
+	('PGL2','EN013','Blackwing - Nothung the Starlight','1E','GS','Synchro'),
+	('PGL2','EN014','Dragocytos Corrupted Nethersoul Dragon','1E','GS','Synchro'),
 	('PGL2','EN020','Stardust Re-Spark','1E','GS','Trap'),
 	('PGL2','EN022','Right Leg of the Forbidden One','1E','GR','Monster'),
 	('PGL2','EN023','Left Leg of the Forbidden One','1E','GR','Monster'),
 	('PGL2','EN024','Right Arm of the Forbidden One','1E','GR','Monster'),
+	('PGL2','EN042','Goyo Guardian','1E','GR','Synchro'),
 	('PGL2','EN063','Ring of Destruction','1E','GR','Trap'),
 	('PGL2','EN065','Compulsory Evacuation Device','1E','GR','Trap'),
 	('PGL2','EN066','Exchange of the Spirit','1E','GR','Trap'),
@@ -162,10 +166,17 @@ VALUES
 	('PGL2','EN070','Crush Card Virus','1E','GR','Trap'),
 	('PGL2','EN079','Gladiator Beast Gyzarus','1E','Gr','Fusion'),
 	('PGL2','EN080','Blue-Eyes White Dragon','1E','GR','Monster'),
+	('PGL2','EN087','Naturia Barkion','1E','GR','Synchro'),
+	('PGL2','EN088','Formula Synchron','1E','GR','Synchro'),
 	('PGL2','EN090','Call of the Haunted','1E','GR','Trap'),
+	('PGLD','EN005','Power Tool Mecha Dragon','N','GS','Synchro'),
+	('PGLD','EN006','Ancient Pixie Dragon','1E','GS','Synchro'),
 	('PGLD','EN015','Dragonecro Nethersoul Dragon','N','GS','Fusion'),
+	('PGLD','EN016','Beelze of the Diabolic Dragons','1E','GS','Synchro'),
+	('PGLD','EN043','Colossal Fighter','1E','GR','Synchro'),
 	('PGLD','EN056','Chimeratech','1E','GR','Fusion'),
 	('PGLD','EN069','Bottomless Trap Hole','1E','GR','Trap'),
+	('PGLD','EN078','Blackwing Armend WIng','1E','GR','Synchro'),
 	('PGLD','EN080','Icarus Attack','N','GR','Trap'),
 	('PSV','002','Three-Headed Geedo','N','C','Monster'),
 	('PSV','040','Morphing Jar #2','N','R','Monster'),
