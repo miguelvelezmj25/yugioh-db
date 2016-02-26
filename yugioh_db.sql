@@ -7,7 +7,7 @@
 #
 # Host: 127.0.0.1 (MySQL 5.7.10)
 # Database: yugioh_db
-# Generation Time: 2016-02-24 01:21:42 +0000
+# Generation Time: 2016-02-26 03:33:53 +0000
 # ************************************************************
 
 
@@ -173,7 +173,13 @@ VALUES
 	('PGLD','EN006','Ancient Pixie Dragon','1E','GS','Synchro'),
 	('PGLD','EN015','Dragonecro Nethersoul Dragon','N','GS','Fusion'),
 	('PGLD','EN016','Beelze of the Diabolic Dragons','1E','GS','Synchro'),
+	('PGLD','EN019','Number C15: Gimmick Puppet Giant Hunter','1E','GS','XYZ'),
+	('PGLD','EN020','Number C40: Gimmick Puppet of Dark Strings','N','GS','XYZ'),
+	('PGLD','EN021','Number C88: Gimmick Puppet Disaster Leo','N','GS','XYZ'),
+	('PGLD','EN024','Number 31: Embodiment of Punishment','1E','GS','XYZ'),
 	('PGLD','EN043','Colossal Fighter','1E','GR','Synchro'),
+	('PGLD','EN044','Number 32: Shark Drake','1E','GR','XYZ'),
+	('PGLD','EN045','Brotherhood of the Fire Fist - Tiget King','N','GR','XYZ'),
 	('PGLD','EN056','Chimeratech','1E','GR','Fusion'),
 	('PGLD','EN069','Bottomless Trap Hole','1E','GR','Trap'),
 	('PGLD','EN078','Blackwing Armend WIng','1E','GR','Synchro'),
