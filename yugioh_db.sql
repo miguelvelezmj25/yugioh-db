@@ -1,13 +1,13 @@
 # ************************************************************
 # Sequel Pro SQL dump
-# Version 4529
+# Version 4541
 #
 # http://www.sequelpro.com/
 # https://github.com/sequelpro/sequelpro
 #
-# Host: 127.0.0.1 (MySQL 5.7.10)
+# Host: 127.0.0.1 (MySQL 5.7.11)
 # Database: yugioh_db
-# Generation Time: 2016-02-27 16:59:27 +0000
+# Generation Time: 2016-04-27 02:11:23 +0000
 # ************************************************************
 
 
@@ -28,16 +28,16 @@ DROP TABLE IF EXISTS `cards`;
 CREATE TABLE `cards` (
   `pack` varchar(38) NOT NULL,
   `id` varchar(38) NOT NULL,
-  `name` varchar(45) NOT NULL DEFAULT '',
+  `name` varchar(100) NOT NULL DEFAULT '',
   `edition` varchar(38) NOT NULL,
   `rarity` varchar(38) NOT NULL,
   `type` varchar(38) NOT NULL,
-  `created_at` datetime NOT NULL,
-  `updated_at` datetime NOT NULL,
+  `created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`pack`,`id`),
-  KEY `FK_cards_edition` (`edition`),
+  KEY `FK_cards_editions` (`edition`),
   KEY `FK_cards_rarities` (`rarity`),
-  CONSTRAINT `FK_cards_edition` FOREIGN KEY (`edition`) REFERENCES `edition` (`edition`),
+  CONSTRAINT `FK_cards_editions` FOREIGN KEY (`edition`) REFERENCES `editions` (`edition`),
   CONSTRAINT `FK_cards_packs` FOREIGN KEY (`pack`) REFERENCES `packs` (`pack`),
   CONSTRAINT `FK_cards_rarities` FOREIGN KEY (`rarity`) REFERENCES `rarities` (`rarity`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
@@ -337,30 +337,30 @@ VALUES
 UNLOCK TABLES;
 
 
-# Dump of table edition
+# Dump of table editions
 # ------------------------------------------------------------
 
-DROP TABLE IF EXISTS `edition`;
+DROP TABLE IF EXISTS `editions`;
 
-CREATE TABLE `edition` (
+CREATE TABLE `editions` (
   `edition` varchar(38) NOT NULL,
   `edition_name` varchar(38) NOT NULL,
-  `created_at` datetime NOT NULL,
-  `updated_at` datetime NOT NULL,
+  `created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`edition`,`edition_name`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-LOCK TABLES `edition` WRITE;
-/*!40000 ALTER TABLE `edition` DISABLE KEYS */;
+LOCK TABLES `editions` WRITE;
+/*!40000 ALTER TABLE `editions` DISABLE KEYS */;
 
-INSERT INTO `edition` (`edition`, `edition_name`, `created_at`, `updated_at`)
+INSERT INTO `editions` (`edition`, `edition_name`, `created_at`, `updated_at`)
 VALUES
 	('1E','1st Edition','2016-02-25 21:41:31','2016-02-25 21:47:39'),
 	('LE','Limited Edition','2016-02-25 21:41:38','2016-02-25 21:47:39'),
 	('N','Normal','2016-02-25 21:41:41','2016-02-25 21:47:39'),
 	('UE','Unlimited Edition','2016-02-25 21:41:44','2016-02-25 21:47:39');
 
-/*!40000 ALTER TABLE `edition` ENABLE KEYS */;
+/*!40000 ALTER TABLE `editions` ENABLE KEYS */;
 UNLOCK TABLES;
 
 
@@ -371,9 +371,9 @@ DROP TABLE IF EXISTS `packs`;
 
 CREATE TABLE `packs` (
   `pack` varchar(38) NOT NULL,
-  `pack_name` varchar(50) NOT NULL,
-  `created_at` datetime NOT NULL,
-  `updated_at` datetime NOT NULL,
+  `pack_name` varchar(100) NOT NULL DEFAULT '',
+  `created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`pack`,`pack_name`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
@@ -423,9 +423,9 @@ DROP TABLE IF EXISTS `rarities`;
 CREATE TABLE `rarities` (
   `rarity` varchar(38) NOT NULL,
   `rarity_name` varchar(38) NOT NULL,
-  `description` tinytext NOT NULL,
-  `created_at` datetime NOT NULL,
-  `updated_at` datetime NOT NULL,
+  `description` varchar(1000) NOT NULL DEFAULT '',
+  `created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`rarity`,`rarity_name`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
