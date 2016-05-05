@@ -7,7 +7,7 @@
 #
 # Host: 127.0.0.1 (MySQL 5.7.11)
 # Database: yugioh_db
-# Generation Time: 2016-04-27 02:11:23 +0000
+# Generation Time: 2016-05-05 22:45:57 +0000
 # ************************************************************
 
 
@@ -58,8 +58,9 @@ VALUES
 	('IOC','013','Berserk Gorilla','N','R','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('IOC','019','Inferno','N','C','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('IOC','062','Burning Algae','N','C','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
+	('JUMP','EN056','Endless Decay','LE','UR','Monster','2016-05-04 14:20:26','2016-05-04 14:20:26'),
 	('LC01','EN001','Obelisk the Tormentor','LE','UR','Divine','2016-02-25 21:46:50','2016-02-25 21:47:23'),
-	('LC01','EN002','Slifer The Sky Dragon','LE','UR','Divine','2016-02-25 21:46:50','2016-02-25 21:47:23'),
+	('LC01','EN002','Slifer the Sky Dragon','LE','UR','Divine','2016-02-25 21:46:50','2016-05-04 11:12:38'),
 	('LC01','EN003','The Winged Dragon of Ra','LE','UR','Divine','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('LC01','EN004','Blue-Eyes White Dragon','LE','UR','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('LC01','EN005','Dark Magician','LE','UR','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
@@ -102,6 +103,7 @@ VALUES
 	('LCJW','EN248','Super Rejuvenation','1E','SR','Spell','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('LCJW','EN250','Gateway to Dark World','1E','SE','Spell','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('LCJW','EN253','The Gates of Dark World','1E','UR','Spell','2016-02-25 21:46:50','2016-02-25 21:47:23'),
+	('LCJW','EN256','Gravekeeper\'s Curse','1E','C','Monster','2016-05-04 09:00:26','2016-05-04 09:00:26'),
 	('LCYW','EN015','Queen\'s Knight','1E','UR','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('LCYW','EN016','Jack\'s Knight','1E','UR','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('LCYW','EN017','King\'s Knight','1E','UR','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
@@ -141,6 +143,27 @@ VALUES
 	('LOB','123','Left Arm of The Forbidden One','N','UR','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('LOB','124','Exodia The Forbidden One','N','UR','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('MFC','083','Dark Cat with White Tail','1E','C','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
+	('MIL1','017','Symbol of Friendship','1E','R','Spell','2016-05-03 21:50:37','2016-05-03 21:50:37'),
+	('MIL1','032','Vorse Raider','1E','C','Monster','2016-05-04 08:47:46','2016-05-04 08:47:46'),
+	('MIL1','EN005','Gandora the Dragon of Destruction','1E','C','Monster','2016-05-03 21:46:04','2016-05-03 21:48:31'),
+	('MIL1','EN010','Sky Galloping Gaia the Dragon Champion','1E','SR','Fusion','2016-05-03 21:48:14','2016-05-03 21:48:14'),
+	('MIL1','EN013','Rebellion','1E','UR','Spell','2016-05-03 21:49:23','2016-05-03 21:49:23'),
+	('MIL1','EN015','Left Arm Offering','1E','SR','Spell','2016-05-03 21:50:09','2016-05-03 21:50:09'),
+	('MIL1','EN018','Shrink','1E','C','Spell','2016-05-03 21:50:54','2016-05-03 21:50:54'),
+	('MIL1','EN021','Contract with the Dark Master','1E','C','Spell','2016-05-03 21:51:54','2016-05-03 21:51:54'),
+	('MIL1','EN022','Trap Hole of Spikes','1E','SR','Trap','2016-05-03 21:52:17','2016-05-03 21:52:17'),
+	('MIL1','EN024','Nightmare Wheel','1E','C','Trap','2016-05-03 21:53:04','2016-05-03 21:53:04'),
+	('MIL1','EN025','Gaia the Fierce Knight','1E','C','Monster','2016-05-03 21:56:04','2016-05-03 21:56:04'),
+	('MIL1','EN026','Celtic Guardian','1E','R','Monster','2016-05-03 21:56:30','2016-05-03 21:56:30'),
+	('MIL1','EN033','Pendulum Machine','1E','C','Monster','2016-05-04 08:48:07','2016-05-04 08:48:07'),
+	('MIL1','EN035','Red-Eyes Black Metal Dragon','1E','C','Monster','2016-05-04 08:48:40','2016-05-04 08:48:40'),
+	('MIL1','EN037','Viser Des','1E','C','Monster','2016-05-04 08:49:07','2016-05-04 08:49:07'),
+	('MIL1','EN038','Flame Swordsman','1E','R','Fusion','2016-05-04 08:49:44','2016-05-04 08:49:44'),
+	('MIL1','EN040','XYZ-Dragon Cannon','1E','R','Fusion','2016-05-04 08:50:10','2016-05-04 08:50:10'),
+	('MIL1','EN043','Spiral Spear Strike','1E','C','Spell','2016-05-04 08:50:41','2016-05-04 08:50:41'),
+	('MIL1','EN044','Acid Trap Hole','1E','R','Trap','2016-05-04 08:51:03','2016-05-04 08:51:03'),
+	('MIL1','EN045','Metalmorph','1E','C','Trap','2016-05-04 08:51:36','2016-05-04 08:51:36'),
+	('MIL1','EN046','Widespread Ruin','1E','R','Trap','2016-05-04 08:51:59','2016-05-04 08:51:59'),
 	('MRD','001','Feral Imp','N','C','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('MRD','002','Winged Dragon, Guardian of the Fortress #1','N','C','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('MRD','019','Masked Sorcerer','N','R','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
@@ -166,26 +189,43 @@ VALUES
 	('PGL2','EN068','Solemn Warning','1E','GR','Trap','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('PGL2','EN069','Traptrix Trap Hole Nightmare','1E','GR','Trap','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('PGL2','EN070','Crush Card Virus','1E','GR','Trap','2016-02-25 21:46:50','2016-02-25 21:47:23'),
-	('PGL2','EN079','Gladiator Beast Gyzarus','1E','Gr','Fusion','2016-02-25 21:46:50','2016-02-25 21:47:23'),
+	('PGL2','EN079','Gladiator Beast Gyzarus','1E','GR','Fusion','2016-02-25 21:46:50','2016-04-30 15:44:46'),
 	('PGL2','EN080','Blue-Eyes White Dragon','1E','GR','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('PGL2','EN087','Naturia Barkion','1E','GR','Synchro','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('PGL2','EN088','Formula Synchron','1E','GR','Synchro','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('PGL2','EN090','Call of the Haunted','1E','GR','Trap','2016-02-25 21:46:50','2016-02-25 21:47:23'),
+	('PGLD','EN001','Gimmick Puppet Dreary Doll','1E','GS','Monster','2016-05-04 09:02:44','2016-05-04 09:02:44'),
+	('PGLD','EN002','Gimmick Puppet Magnet Doll','1E','GS','Monster','2016-05-04 09:03:25','2016-05-04 09:03:25'),
+	('PGLD','EN004','Big Belly Knight','1E','GS','Monster','2016-05-04 09:03:54','2016-05-04 09:03:54'),
 	('PGLD','EN005','Power Tool Mecha Dragon','N','GS','Synchro','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('PGLD','EN006','Ancient Pixie Dragon','1E','GS','Synchro','2016-02-25 21:46:50','2016-02-25 21:47:23'),
+	('PGLD','EN010','Chronomaly Gordian Knot','1E','GS','Monster','2016-05-04 09:04:15','2016-05-04 09:04:15'),
+	('PGLD','EN013','Silent Wobby','1E','GS','Monster','2016-05-04 09:04:29','2016-05-04 09:04:29'),
 	('PGLD','EN015','Dragonecro Nethersoul Dragon','N','GS','Fusion','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('PGLD','EN016','Beelze of the Diabolic Dragons','1E','GS','Synchro','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('PGLD','EN019','Number C15: Gimmick Puppet Giant Hunter','1E','GS','XYZ','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('PGLD','EN020','Number C40: Gimmick Puppet of Dark Strings','N','GS','XYZ','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('PGLD','EN021','Number C88: Gimmick Puppet Disaster Leo','N','GS','XYZ','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('PGLD','EN024','Number 31: Embodiment of Punishment','1E','GS','XYZ','2016-02-25 21:46:50','2016-02-25 21:47:23'),
+	('PGLD','EN034','Lonefire Blossom','N','GS','Monster','2016-05-04 14:23:57','2016-05-04 14:23:57'),
+	('PGLD','EN037','Gagaga Magician','1E','GS','Monster','2016-05-04 14:22:51','2016-05-04 14:22:51'),
+	('PGLD','EN040','Darkflare Dragon','N','GS','Monster','2016-05-04 14:23:10','2016-05-04 14:23:10'),
+	('PGLD','EN041','Eclipse Wyvern','N','GS','Monster','2016-05-04 14:23:36','2016-05-04 14:23:36'),
 	('PGLD','EN043','Colossal Fighter','1E','GR','Synchro','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('PGLD','EN044','Number 32: Shark Drake','1E','GR','XYZ','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('PGLD','EN045','Brotherhood of the Fire Fist - Tiget King','N','GR','XYZ','2016-02-25 21:46:50','2016-02-25 21:47:23'),
+	('PGLD','EN053','Cyber Dragon','1E','GS','Monster','2016-05-04 14:24:42','2016-05-04 14:24:42'),
+	('PGLD','EN054','Goldd, Wu-Lord of Dark World','1E','GS','Monster','2016-05-04 14:21:59','2016-05-04 14:21:59'),
 	('PGLD','EN056','Chimeratech','1E','GR','Fusion','2016-02-25 21:46:50','2016-02-25 21:47:23'),
+	('PGLD','EN063','Necro Gardna','N','GS','Monster','2016-05-04 14:22:32','2016-05-04 14:22:32'),
+	('PGLD','EN066','Caius the Shadow Monarch','1E','GS','Monster','2016-05-04 14:17:14','2016-05-04 14:17:14'),
 	('PGLD','EN069','Bottomless Trap Hole','1E','GR','Trap','2016-02-25 21:46:50','2016-02-25 21:47:23'),
+	('PGLD','EN074','Plaguespreader Zombie','1E','GS','Monster','2016-05-04 14:21:10','2016-05-04 14:21:10'),
+	('PGLD','EN075','Thunder King Rai-Oh','1E','GS','Monster','2016-05-04 14:21:35','2016-05-04 14:21:35'),
 	('PGLD','EN078','Blackwing Armend WIng','1E','GR','Synchro','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('PGLD','EN080','Icarus Attack','N','GR','Trap','2016-02-25 21:46:50','2016-02-25 21:47:23'),
+	('PGLD','EN083','Spirit Reaper','N','GS','Monster','2016-05-04 11:52:42','2016-05-04 11:52:42'),
+	('PGLD','EN084','Chaos Sorcerer','N','GS','Monster','2016-05-04 11:53:02','2016-05-04 11:53:02'),
 	('PSV','002','Three-Headed Geedo','N','C','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('PSV','040','Morphing Jar #2','N','R','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('PSV','046','Kiseitai','N','C','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
@@ -212,6 +252,20 @@ VALUES
 	('SDBE','EN018','Shining Angel','N','C','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('SDBE','EN019','Dragon Shrine','N','SR','Spell','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('SDBE','EN040','Azure-Eyes Silver Dragon','N','UR','Synchro','2016-02-25 21:46:50','2016-02-25 21:47:23'),
+	('SDHS','EN001','Elemental HERO Shadow Mist','1E','SR','Monster','2016-05-04 08:53:55','2016-05-04 08:53:55'),
+	('SDHS','EN002','Elemental HERO Ocean','1E','C','Monster','2016-05-04 08:56:53','2016-05-04 08:56:53'),
+	('SDHS','EN003','Elemental HERO Woodsman','1E','C','Monster','2016-05-04 08:56:33','2016-05-04 08:56:33'),
+	('SDHS','EN004','Elemental HERO Voltic','1E','C','Monster','2016-05-04 08:56:06','2016-05-04 08:56:06'),
+	('SDHS','EN005','Elemental HERO Heat','1E','C','Monster','2016-05-04 08:55:31','2016-05-04 08:55:31'),
+	('SDHS','EN008','Elemental HERO Neos Alius','1E','C','Monster','2016-05-04 08:57:57','2016-05-04 08:57:57'),
+	('SDHS','EN009','Elemental HERO Bladedge','1E','C','Monster','2016-05-04 08:57:38','2016-05-04 08:57:38'),
+	('SDHS','EN010','Elemental HERO Necroshade','1E','C','Monster','2016-05-04 08:57:15','2016-05-04 08:57:15'),
+	('SDHS','EN011','Elemental HERO Wildheart','1E','C','Monster','2016-05-04 08:59:44','2016-05-04 08:59:44'),
+	('SDHS','EN012','Elemental HERO Bubbleman','1E','C','Monster','2016-05-04 08:59:18','2016-05-04 08:59:18'),
+	('SDHS','EN014','Neo-Spacian Grand Mole','1E','C','Monster','2016-05-04 08:58:59','2016-05-04 08:58:59'),
+	('SDHS','EN015','Card Trooper','1E','C','Monster','2016-05-04 08:59:58','2016-05-04 08:59:58'),
+	('SDHS','EN016','Winged Kuriboh','1E','C','Monster','2016-05-04 08:54:41','2016-05-04 08:54:41'),
+	('SDHS','EN018','Homunculus the Alchemic Being','1E','C','Monster','2016-05-04 08:55:08','2016-05-04 08:55:08'),
 	('SDHS','EN022','Mask Change','1E','C','Spell','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('SDHS','EN041','Contrast HERO Chaos','1E','UR','Fusion','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('SDHS','EN042','Masked HERO Koga','1E','SR','Fusion','2016-02-25 21:46:50','2016-02-25 21:47:23'),
@@ -286,7 +340,7 @@ VALUES
 	('SKE','006','Uraby','N','C','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('SKE','007','Mystic Horseman','N','C','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('SKE','010','Skull Red Bird','N','C','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
-	('SKe','011','Hyozanryu','N','C','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
+	('SKE','011','Hyozanryu','N','C','Monster','2016-02-25 21:46:50','2016-05-03 21:48:19'),
 	('SKE','012','Opticlops','N','C','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('SKE','014','Luster Dragon #2','N','C','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('SKE','015','Kaiser Sea Horse','N','UR','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
@@ -336,6 +390,14 @@ VALUES
 /*!40000 ALTER TABLE `cards` ENABLE KEYS */;
 UNLOCK TABLES;
 
+DELIMITER ;;
+/*!50003 SET SESSION SQL_MODE="ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION" */;;
+/*!50003 CREATE */ /*!50017 DEFINER=`miguelvelezmj25`@`localhost` */ /*!50003 TRIGGER `name` BEFORE INSERT ON `cards` FOR EACH ROW if NEW.name in (SELECT name from cards) THEN
+	SIGNAL SQLSTATE '45000' set message_text='Same name';
+END IF */;;
+DELIMITER ;
+/*!50003 SET SESSION SQL_MODE=@OLD_SQL_MODE */;
+
 
 # Dump of table editions
 # ------------------------------------------------------------
@@ -384,6 +446,7 @@ INSERT INTO `packs` (`pack`, `pack_name`, `created_at`, `updated_at`)
 VALUES
 	('DCR','Dark Crisis','2016-02-25 21:44:29','2016-02-25 21:47:58'),
 	('IOC','Invasion of Chaos','2016-02-25 21:44:29','2016-02-25 21:47:58'),
+	('JUMP','Shonen Jump','2016-05-04 14:19:54','2016-05-04 14:19:54'),
 	('LC01','Legendary Collection: Gameboard Edition','2016-02-25 21:44:33','2016-02-25 21:47:58'),
 	('LC03','Legendary Collection 3 Yugi\'s World','2016-02-25 21:44:35','2016-02-25 21:47:58'),
 	('LC04','Legendary Collection 4 Joey\'s World','2016-02-25 21:44:36','2016-02-25 21:47:58'),
@@ -391,6 +454,7 @@ VALUES
 	('LCYW','Legendary Collection 3 Yugi\'s World Mega Pack','2016-02-25 21:44:38','2016-02-25 21:47:58'),
 	('LOB','Legend of Blue-Eyes White Dragon','2016-02-25 21:44:38','2016-02-25 21:47:58'),
 	('MFC','Magician\'s Force','2016-02-25 21:44:39','2016-02-25 21:47:58'),
+	('MIL1','Millennium Pack','2016-05-03 21:44:23','2016-05-03 21:44:37'),
 	('MRD','Metal Raiders','2016-02-25 21:45:12','2016-02-25 21:47:58'),
 	('MRL','Spell Ruler','2016-02-25 21:45:41','2016-02-25 21:47:58'),
 	('PGL2','Premium Gold: Return of the Bling ','2016-02-25 21:45:41','2016-02-25 21:47:58'),
