@@ -7,7 +7,7 @@
 #
 # Host: 127.0.0.1 (MySQL 5.7.12)
 # Database: yugioh_db
-# Generation Time: 2016-06-03 01:11:05 +0000
+# Generation Time: 2016-06-03 23:28:41 +0000
 # ************************************************************
 
 
@@ -218,14 +218,30 @@ VALUES
 	('NKRT','EN038','Sacred Noble Knight of King Artorigus','LE','PR','XYZ','2016-06-02 20:09:35','2016-06-02 20:09:35'),
 	('NKRT','EN039','Effect Veiler','LE','PR','Monster','2016-06-02 20:01:30','2016-06-02 20:01:30'),
 	('NKRT','EN041','Gold Sarcophagus','LE','PR','Spell','2016-06-02 20:07:47','2016-06-02 20:07:47'),
+	('PGL2','EN001','Junk Giant','1E','GS','Monster','2016-06-03 18:19:02','2016-06-03 18:19:02'),
+	('PGL2','EN002','Absolute King Back Jack','1E','GS','Monster','2016-06-03 18:19:25','2016-06-03 18:19:25'),
+	('PGL2','EN004','Rose Paladin','1E','GS','Monster','2016-06-03 18:19:51','2016-06-03 18:19:51'),
+	('PGL2','EN005','Ghost Charon, the Underworld Boatman','1E','GS','Monster','2016-06-03 18:20:31','2016-06-03 18:20:31'),
+	('PGL2','EN006','Blackwing - Kris the Crack of Dawn','1E','GS','Monster','2016-06-03 18:20:51','2016-06-03 18:20:51'),
+	('PGL2','EN007','Blackwing - Pinaki the Waxing Moon','1E','GS','Monster','2016-06-03 18:21:18','2016-06-03 18:21:18'),
+	('PGL2','EN008','Peropero Cerperus','1E','GS','Monster','2016-06-03 18:21:38','2016-06-03 18:21:38'),
+	('PGL2','EN009','Tristan, Knight of the Underworld','1E','GS','Monster','2016-06-03 18:21:59','2016-06-03 18:21:59'),
+	('PGL2','EN010','Isolde, Belle of the Underworld','1E','GS','Monster','2016-06-03 18:22:25','2016-06-03 18:22:25'),
 	('PGL2','EN011','Masked HERO Anki','1E','GS','Fusion','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('PGL2','EN012','Blackwing Tamer - Obsidian Hawk Joe','1E','GS','Synchro','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('PGL2','EN013','Blackwing - Nothung the Starlight','1E','GS','Synchro','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('PGL2','EN014','Dragocytos Corrupted Nethersoul Dragon','1E','GS','Synchro','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('PGL2','EN020','Stardust Re-Spark','1E','GS','Trap','2016-02-25 21:46:50','2016-02-25 21:47:23'),
+	('PGL2','EN021','Santa Claws','1E','GS','Monster','2016-06-03 18:22:41','2016-06-03 18:22:41'),
 	('PGL2','EN022','Right Leg of the Forbidden One','1E','GR','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('PGL2','EN023','Left Leg of the Forbidden One','1E','GR','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('PGL2','EN024','Right Arm of the Forbidden One','1E','GR','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
+	('PGL2','EN027','Sinister Serpent','1E','GS','Monster','2016-06-03 18:24:10','2016-06-03 18:24:10'),
+	('PGL2','EN032','Mystical Beast of Serket','1E','GS','Monster','2016-06-03 18:24:55','2016-06-03 18:24:55'),
+	('PGL2','EN034','Metaion, the Timelord','1E','GS','Monster','2016-06-03 18:25:18','2016-06-03 18:25:18'),
+	('PGL2','EN035','Bujin Yamato','1E','GS','Monster','2016-06-03 18:25:33','2016-06-03 18:25:33'),
+	('PGL2','EN036','Traptrix Atrax','1E','GS','Monster','2016-06-03 18:26:01','2016-06-03 18:26:01'),
+	('PGL2','EN038','Traptrix Nepenthes','1E','GS','Monster','2016-06-03 18:26:20','2016-06-03 18:26:20'),
 	('PGL2','EN042','Goyo Guardian','1E','GR','Synchro','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('PGL2','EN063','Ring of Destruction','1E','GR','Trap','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('PGL2','EN065','Compulsory Evacuation Device','1E','GR','Trap','2016-02-25 21:46:50','2016-02-25 21:47:23'),
@@ -234,8 +250,11 @@ VALUES
 	('PGL2','EN068','Solemn Warning','1E','GR','Trap','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('PGL2','EN069','Traptrix Trap Hole Nightmare','1E','GR','Trap','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('PGL2','EN070','Crush Card Virus','1E','GR','Trap','2016-02-25 21:46:50','2016-02-25 21:47:23'),
+	('PGL2','EN072','Elemental HERO Prisma','1E','GS','Monster','2016-06-03 18:26:50','2016-06-03 18:26:50'),
 	('PGL2','EN079','Gladiator Beast Gyzarus','1E','GR','Fusion','2016-02-25 21:46:50','2016-04-30 15:44:46'),
 	('PGL2','EN080','Blue-Eyes White Dragon','1E','GR','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
+	('PGL2','EN082','Master Hyperion','1E','GS','Monster','2016-06-03 18:27:21','2016-06-03 18:27:21'),
+	('PGL2','EN083','Grapha, Dragon Lord of Dark World','1E','GS','Monster','2016-06-03 18:28:10','2016-06-03 18:28:10'),
 	('PGL2','EN087','Naturia Barkion','1E','GR','Synchro','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('PGL2','EN088','Formula Synchron','1E','GR','Synchro','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('PGL2','EN090','Call of the Haunted','1E','GR','Trap','2016-02-25 21:46:50','2016-02-25 21:47:23'),
