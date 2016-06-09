@@ -7,7 +7,7 @@
 #
 # Host: 127.0.0.1 (MySQL 5.7.12)
 # Database: yugioh_db
-# Generation Time: 2016-06-06 00:18:06 +0000
+# Generation Time: 2016-06-09 01:28:35 +0000
 # ************************************************************
 
 
@@ -263,11 +263,14 @@ VALUES
 	('PGL2','EN087','Naturia Barkion','1E','GR','Synchro','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('PGL2','EN088','Formula Synchron','1E','GR','Synchro','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('PGL2','EN090','Call of the Haunted','1E','GR','Trap','2016-02-25 21:46:50','2016-02-25 21:47:23'),
+	('PGLD','EN','Fire Formation - Tenki','1E','GS','Spell','2016-06-08 20:27:35','2016-06-08 20:27:35'),
 	('PGLD','EN001','Gimmick Puppet Dreary Doll','1E','GS','Monster','2016-05-04 09:02:44','2016-05-04 09:02:44'),
 	('PGLD','EN002','Gimmick Puppet Magnet Doll','1E','GS','Monster','2016-05-04 09:03:25','2016-05-04 09:03:25'),
 	('PGLD','EN004','Big Belly Knight','1E','GS','Monster','2016-05-04 09:03:54','2016-05-04 09:03:54'),
 	('PGLD','EN005','Power Tool Mecha Dragon','N','GS','Synchro','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('PGLD','EN006','Ancient Pixie Dragon','1E','GS','Synchro','2016-02-25 21:46:50','2016-02-25 21:47:23'),
+	('PGLD','EN008','Chronomaly City Babylon','N','GS','Spell','2016-06-08 20:25:08','2016-06-08 20:25:08'),
+	('PGLD','EN009','Utopia Buster','1E','GS','Spell','2016-06-08 20:25:56','2016-06-08 20:25:56'),
 	('PGLD','EN010','Chronomaly Gordian Knot','1E','GS','Monster','2016-05-04 09:04:15','2016-05-04 09:04:15'),
 	('PGLD','EN013','Silent Wobby','1E','GS','Monster','2016-05-04 09:04:29','2016-05-04 09:04:29'),
 	('PGLD','EN015','Dragonecro Nethersoul Dragon','N','GS','Fusion','2016-02-25 21:46:50','2016-02-25 21:47:23'),
@@ -276,6 +279,7 @@ VALUES
 	('PGLD','EN020','Number C40: Gimmick Puppet of Dark Strings','N','GS','XYZ','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('PGLD','EN021','Number C88: Gimmick Puppet Disaster Leo','N','GS','XYZ','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('PGLD','EN024','Number 31: Embodiment of Punishment','1E','GS','XYZ','2016-02-25 21:46:50','2016-02-25 21:47:23'),
+	('PGLD','EN027','Rank-Up-Magic Argent Chaos Force','N','GS','Spell','2016-06-08 20:26:36','2016-06-08 20:26:36'),
 	('PGLD','EN034','Lonefire Blossom','N','GS','Monster','2016-05-04 14:23:57','2016-05-04 14:23:57'),
 	('PGLD','EN037','Gagaga Magician','1E','GS','Monster','2016-05-04 14:22:51','2016-05-04 14:22:51'),
 	('PGLD','EN040','Darkflare Dragon','N','GS','Monster','2016-05-04 14:23:10','2016-05-04 14:23:10'),
@@ -283,6 +287,8 @@ VALUES
 	('PGLD','EN043','Colossal Fighter','1E','GR','Synchro','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('PGLD','EN044','Number 32: Shark Drake','1E','GR','XYZ','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('PGLD','EN045','Brotherhood of the Fire Fist - Tiget King','N','GR','XYZ','2016-02-25 21:46:50','2016-02-25 21:47:23'),
+	('PGLD','EN046','Solar Recharge','N','GS','Spell','2016-06-08 20:26:56','2016-06-08 20:26:56'),
+	('PGLD','EN049','Forbidden Dress','1E','GS','Spell','2016-06-08 20:27:17','2016-06-08 20:27:17'),
 	('PGLD','EN053','Cyber Dragon','1E','GS','Monster','2016-05-04 14:24:42','2016-05-04 14:24:42'),
 	('PGLD','EN054','Goldd, Wu-Lord of Dark World','1E','GS','Monster','2016-05-04 14:21:59','2016-05-04 14:21:59'),
 	('PGLD','EN056','Chimeratech','1E','GR','Fusion','2016-02-25 21:46:50','2016-02-25 21:47:23'),
