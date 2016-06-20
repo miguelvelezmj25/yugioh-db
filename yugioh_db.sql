@@ -5,9 +5,9 @@
 # http://www.sequelpro.com/
 # https://github.com/sequelpro/sequelpro
 #
-# Host: 127.0.0.1 (MySQL 5.7.12)
+# Host: 127.0.0.1 (MySQL 5.7.13)
 # Database: yugioh_db
-# Generation Time: 2016-06-09 01:28:35 +0000
+# Generation Time: 2016-06-18 03:10:19 +0000
 # ************************************************************
 
 
@@ -26,26 +26,26 @@
 DROP TABLE IF EXISTS `cards`;
 
 CREATE TABLE `cards` (
-  `pack` varchar(38) NOT NULL,
+  `pack_id` varchar(38) NOT NULL,
   `id` varchar(38) NOT NULL,
   `name` varchar(100) NOT NULL DEFAULT '',
-  `edition` varchar(38) NOT NULL,
-  `rarity` varchar(38) NOT NULL,
+  `edition_id` varchar(38) NOT NULL,
+  `rarity_id` varchar(38) NOT NULL,
   `type` varchar(38) NOT NULL,
   `created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `updated_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-  PRIMARY KEY (`pack`,`id`),
-  KEY `FK_cards_editions` (`edition`),
-  KEY `FK_cards_rarities` (`rarity`),
-  CONSTRAINT `FK_cards_editions` FOREIGN KEY (`edition`) REFERENCES `editions` (`edition`),
-  CONSTRAINT `FK_cards_packs` FOREIGN KEY (`pack`) REFERENCES `packs` (`pack`),
-  CONSTRAINT `FK_cards_rarities` FOREIGN KEY (`rarity`) REFERENCES `rarities` (`rarity`)
+  PRIMARY KEY (`pack_id`,`id`),
+  KEY `cards_editions_id_fk` (`edition_id`),
+  KEY `cards_rarities_id_fk` (`rarity_id`),
+  CONSTRAINT `cards_editions_id_fk` FOREIGN KEY (`edition_id`) REFERENCES `editions` (`id`),
+  CONSTRAINT `cards_packs_id_fk` FOREIGN KEY (`pack_id`) REFERENCES `packs` (`id`),
+  CONSTRAINT `cards_rarities_id_fk` FOREIGN KEY (`rarity_id`) REFERENCES `rarities` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 LOCK TABLES `cards` WRITE;
 /*!40000 ALTER TABLE `cards` DISABLE KEYS */;
 
-INSERT INTO `cards` (`pack`, `id`, `name`, `edition`, `rarity`, `type`, `created_at`, `updated_at`)
+INSERT INTO `cards` (`pack_id`, `id`, `name`, `edition_id`, `rarity_id`, `type`, `created_at`, `updated_at`)
 VALUES
 	('DCR','002','Nin-Ken','N','C','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('DCR','004','Arsenal Summoner','N','C','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
@@ -519,17 +519,17 @@ DELIMITER ;
 DROP TABLE IF EXISTS `editions`;
 
 CREATE TABLE `editions` (
-  `edition` varchar(38) NOT NULL,
-  `edition_name` varchar(38) NOT NULL,
+  `id` varchar(38) NOT NULL,
+  `name` varchar(38) NOT NULL DEFAULT '',
   `created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `updated_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-  PRIMARY KEY (`edition`,`edition_name`)
+  PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 LOCK TABLES `editions` WRITE;
 /*!40000 ALTER TABLE `editions` DISABLE KEYS */;
 
-INSERT INTO `editions` (`edition`, `edition_name`, `created_at`, `updated_at`)
+INSERT INTO `editions` (`id`, `name`, `created_at`, `updated_at`)
 VALUES
 	('1E','1st Edition','2016-02-25 21:41:31','2016-02-25 21:47:39'),
 	('LE','Limited Edition','2016-02-25 21:41:38','2016-02-25 21:47:39'),
@@ -546,17 +546,17 @@ UNLOCK TABLES;
 DROP TABLE IF EXISTS `packs`;
 
 CREATE TABLE `packs` (
-  `pack` varchar(38) NOT NULL,
-  `pack_name` varchar(100) NOT NULL DEFAULT '',
+  `id` varchar(38) NOT NULL,
+  `name` varchar(100) NOT NULL DEFAULT '',
   `created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `updated_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-  PRIMARY KEY (`pack`,`pack_name`)
+  PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 LOCK TABLES `packs` WRITE;
 /*!40000 ALTER TABLE `packs` DISABLE KEYS */;
 
-INSERT INTO `packs` (`pack`, `pack_name`, `created_at`, `updated_at`)
+INSERT INTO `packs` (`id`, `name`, `created_at`, `updated_at`)
 VALUES
 	('DCR','Dark Crisis','2016-02-25 21:44:29','2016-02-25 21:47:58'),
 	('IOC','Invasion of Chaos','2016-02-25 21:44:29','2016-02-25 21:47:58'),
@@ -602,18 +602,18 @@ UNLOCK TABLES;
 DROP TABLE IF EXISTS `rarities`;
 
 CREATE TABLE `rarities` (
-  `rarity` varchar(38) NOT NULL,
-  `rarity_name` varchar(38) NOT NULL,
+  `id` varchar(38) NOT NULL,
+  `name` varchar(38) NOT NULL DEFAULT '',
   `description` varchar(1000) NOT NULL DEFAULT '',
   `created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `updated_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-  PRIMARY KEY (`rarity`,`rarity_name`)
+  PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 LOCK TABLES `rarities` WRITE;
 /*!40000 ALTER TABLE `rarities` DISABLE KEYS */;
 
-INSERT INTO `rarities` (`rarity`, `rarity_name`, `description`, `created_at`, `updated_at`)
+INSERT INTO `rarities` (`id`, `name`, `description`, `created_at`, `updated_at`)
 VALUES
 	('C','Common','Black or white name and no holofoil on the card name or image','2016-02-25 21:43:31','2016-02-25 21:48:34'),
 	('GR','Gold Rare','Gold foil over the card name and holographic gold foil artwork like an Ultra Rare, but also features gold foil over the artwork frame, text border, and card border','2016-02-25 21:43:35','2016-02-25 21:48:34'),
