@@ -7,7 +7,7 @@
 #
 # Host: 127.0.0.1 (MySQL 5.7.13)
 # Database: yugioh_db
-# Generation Time: 2016-08-13 20:06:52 +0000
+# Generation Time: 2016-08-15 00:10:54 +0000
 # ************************************************************
 
 
@@ -515,6 +515,33 @@ VALUES
 	('YGLD','ENA22','Kuriboh','1E','C','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('YGLD','ENA41','Gaia the Dragon Champion','N','C','Fusion','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('YGLD','ENB00','Dark Renewal','LE','SE','Trap','2016-02-25 21:46:50','2016-02-25 21:47:23'),
+	('YGLD','ENB01','Valkyrion the Magna Warrior','1E','UR','Monster','2016-08-14 19:49:55','2016-08-14 19:49:55'),
+	('YGLD','ENB04','Buster Blader','1E','C','Monster','2016-08-14 19:45:40','2016-08-14 19:45:40'),
+	('YGLD','ENB05','Archfiend of Gilfer','1E','C','Monster','2016-08-14 20:00:24','2016-08-14 20:00:24'),
+	('YGLD','ENB09','Berfomet','1E','C','Monster','2016-08-14 19:51:04','2016-08-14 19:51:04'),
+	('YGLD','ENB10','Gazelle the King of Mythical Beasts','1E','C','Monster','2016-08-14 19:51:25','2016-08-14 19:51:25'),
+	('YGLD','ENB11','Alpha the Magnet Warrior','1E','C','Monster','2016-08-14 19:51:41','2016-08-14 19:51:41'),
+	('YGLD','ENB12','Beta the Magnet Warrior','1E','C','Monster','2016-08-14 19:51:59','2016-08-14 19:51:59'),
+	('YGLD','ENB13','Gamma the Magnet Warrior','1E','C','Monster','2016-08-14 19:52:18','2016-08-14 19:52:18'),
+	('YGLD','ENB14','BIg Shield Gardna','1E','C','Monster','2016-08-14 19:52:37','2016-08-14 19:52:37'),
+	('YGLD','ENB18','Dark Magic Curtain','1E','C','Monster','2016-08-14 19:54:02','2016-08-14 19:54:02'),
+	('YGLD','ENB19','Thousand Knives','1E','C','Spell','2016-08-14 19:54:40','2016-08-14 19:54:40'),
+	('YGLD','ENB20','Magic Formula','1E','C','Spell','2016-08-14 19:54:57','2016-08-14 19:54:57'),
+	('YGLD','ENB23','Double Spell','1E','C','Spell','2016-08-14 19:55:53','2016-08-14 19:55:53'),
+	('YGLD','ENB24','Ectoplasmer','1E','C','Spell','2016-08-14 19:57:01','2016-08-14 19:57:01'),
+	('YGLD','ENB25','Soul Taker','1E','C','Spell','2016-08-14 19:57:14','2016-08-14 19:57:28'),
+	('YGLD','ENB26','Pot of Greed','1E','C','Spell','2016-08-14 19:57:44','2016-08-14 19:57:44'),
+	('YGLD','ENB28','Exchange','1E','C','Spell','2016-08-14 19:58:22','2016-08-14 19:58:22'),
+	('YGLD','ENB29','Monster Recovery','1E','C','Spell','2016-08-14 19:58:37','2016-08-14 19:58:37'),
+	('YGLD','ENB31','De-Fusion','1E','C','Spell','2016-08-14 19:59:13','2016-08-14 19:59:13'),
+	('YGLD','ENB32','Multiply','1E','C','Spell','2016-08-14 19:47:42','2016-08-14 19:47:42'),
+	('YGLD','ENB33','Mirror Forcer','1E','UR','Trap','2016-08-14 19:47:26','2016-08-14 19:47:26'),
+	('YGLD','ENB36','Spellbinding Circle','1E','C','Trap','2016-08-14 19:48:35','2016-08-14 19:48:35'),
+	('YGLD','ENB37','Lightforce Sword','1E','C','Trap','2016-08-14 19:49:15','2016-08-14 19:49:15'),
+	('YGLD','ENB38','Chain Destruction','1E','C','Trap','2016-08-14 19:59:49','2016-08-14 19:59:49'),
+	('YGLD','ENB39','Soul Rope','1E','C','Trap','2016-08-14 19:59:35','2016-08-14 19:59:35'),
+	('YGLD','ENB40','Tragedy','1E','C','Trap','2016-08-14 20:00:00','2016-08-14 20:00:00'),
+	('YGLD','ENB41','Chimera the Flying Mythical Beast','1E','C','Fusion','2016-08-14 20:00:43','2016-08-14 20:00:43'),
 	('YGLD','ENC00','Black Illusion','LE','SE','Trap','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('YGLD','ENG01','Slifer the Sky Dragon','LE','UR','Divine','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('YGLD','ENG02','Obelisk the Tormentor','LE','UR','Divine','2016-02-25 21:46:50','2016-02-25 21:47:23'),
@@ -593,7 +620,7 @@ VALUES
 	('MIL1','Millennium Pack','2016-05-03 21:44:23','2016-05-03 21:44:37'),
 	('MRD','Metal Raiders','2016-02-25 21:45:12','2016-02-25 21:47:58'),
 	('MRL','Spell Ruler','2016-02-25 21:45:41','2016-02-25 21:47:58'),
-	('MVP1','Yu-Gi-Oh! THE DARK SIDE OF DIMENSIONS MOVIE PACK','2016-08-13 15:02:46','2016-08-30 15:02:59'),
+	('MVP1','The Dark Side of Dimensions Movie Pack','2016-08-13 15:02:46','2016-08-14 20:01:59'),
 	('NECH','The New Challengers','2016-05-08 09:17:08','2016-05-08 09:17:08'),
 	('NKRT','Noble Knights of the Round Table','2016-06-01 20:18:49','2016-06-01 20:18:49'),
 	('PGL2','Premium Gold: Return of the Bling ','2016-02-25 21:45:41','2016-02-25 21:47:58'),
