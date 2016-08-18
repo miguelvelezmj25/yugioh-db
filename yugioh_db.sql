@@ -5,9 +5,9 @@
 # http://www.sequelpro.com/
 # https://github.com/sequelpro/sequelpro
 #
-# Host: 127.0.0.1 (MySQL 5.7.13)
+# Host: 127.0.0.1 (MySQL 5.7.14)
 # Database: yugioh_db
-# Generation Time: 2016-08-15 00:10:54 +0000
+# Generation Time: 2016-08-18 17:30:49 +0000
 # ************************************************************
 
 
@@ -189,19 +189,33 @@ VALUES
 	('MVP1','EN008','Chaos Form','1E','UR','Spell','2016-08-13 15:08:42','2016-08-13 15:08:42'),
 	('MVP1','EN009','Induced Explosion','1E','UR','Trap','2016-08-13 15:09:00','2016-08-13 15:09:00'),
 	('MVP1','EN010','Counter Gate','1E','UR','Trap','2016-08-13 15:10:06','2016-08-13 15:10:06'),
+	('MVP1','EN011','Krystal Avatar','1E','UR','Trap','2016-08-18 12:47:17','2016-08-18 12:47:17'),
+	('MVP1','EN012','Sentry Soldier of Stone','1E','UR','Monster','2016-08-18 12:18:10','2016-08-18 12:18:10'),
 	('MVP1','EN013','Marshmacaron','1E','UR','Monster','2016-08-13 15:07:27','2016-08-13 15:07:27'),
 	('MVP1','EN016','Kiwi Magician Girl','1E','UR','Monster','2016-08-13 15:08:16','2016-08-13 15:08:16'),
 	('MVP1','EN017','Silver Gadget','1E','UR','Monster','2016-08-13 15:06:01','2016-08-13 15:06:01'),
 	('MVP1','EN018','Gold Gadget','1E','UR','Monster','2016-08-13 15:07:05','2016-08-13 15:07:05'),
+	('MVP1','EN020','Magical Contract Door','1E','UR','Spell','2016-08-18 12:18:47','2016-08-18 12:18:47'),
 	('MVP1','EN022','Dig of Destiny','1E','UR','Trap','2016-08-13 15:10:57','2016-08-13 15:10:57'),
 	('MVP1','EN023','Dimension Sphinx','1E','UR','Trap','2016-08-13 15:09:47','2016-08-13 15:09:47'),
+	('MVP1','EN027','Metamorphortress','1E','UR','Trap','2016-08-18 12:17:56','2016-08-18 12:17:56'),
 	('MVP1','EN028','Magician\'s Defense','1E','UR','Trap','2016-08-13 15:11:16','2016-08-13 15:11:16'),
 	('MVP1','EN030','Metalhold the Moving Blockade','1E','UR','Trap','2016-08-13 15:10:30','2016-08-13 15:10:30'),
 	('MVP1','EN031','Spiritual Swords of Revealing Light','1E','UR','Trap','2016-08-13 15:11:37','2016-08-13 15:11:37'),
 	('MVP1','EN032','Vijam the Cubic Seed','1E','UR','Monster','2016-08-13 15:06:20','2016-08-13 15:06:20'),
 	('MVP1','EN033','Dark Garnex the Cubic Beast','1E','UR','Monster','2016-08-13 15:07:54','2016-08-13 15:07:54'),
+	('MVP1','EN034','Blade Garoodia the Cubic Beast','1E','UR','Monster','2016-08-18 12:17:36','2016-08-18 12:17:36'),
+	('MVP1','EN035','Buster Gundil the Cubic Behemoth','1E','UR','Monster','2016-08-18 12:18:31','2016-08-18 12:18:31'),
 	('MVP1','EN037','Vulcan Dragni the Cubic King','1E','UR','Monster','2016-08-13 15:05:41','2016-08-13 15:05:41'),
+	('MVP1','EN038','Indiora Doom Volt the Cubic Empreor','1E','UR','Monster','2016-08-18 12:16:57','2016-08-18 12:16:57'),
+	('MVP1','EN039','Crimson Nova the Dark Cubic Lord','1E','UR','Monster','2016-08-18 12:16:15','2016-08-18 12:16:15'),
 	('MVP1','EN044','Cubic Mandala','1E','UR','Trap','2016-08-13 15:09:22','2016-08-13 15:09:22'),
+	('MVP1','EN046','Blue-Eyes Alternative White Dragon','1E','UR','Monster','2016-08-18 12:17:19','2016-08-18 12:17:19'),
+	('MVP1','EN047','Clear Kuriboh','1E','UR','Monster','2016-08-18 12:15:56','2016-08-18 12:15:56'),
+	('MVP1','EN049','Gandora-X the Dragon of Demolition','1E','UR','Monster','2016-08-18 12:16:38','2016-08-18 12:16:38'),
+	('MVP1','EN055','Blue-Eyes White Dragon TODO','1E','UR','Monster','2016-08-18 12:15:16','2016-08-18 12:15:16'),
+	('MVP1','EN056','Dark Magician Girl TODO','1E','UR','Monster','2016-08-18 12:15:39','2016-08-18 12:15:39'),
+	('MVP1','EN057','Slifer the Sky Dragon TODO','1E','UR','Monster','2016-08-18 12:19:34','2016-08-18 12:19:34'),
 	('NECH','EN055','Wonder Ballons','1E','C','Spell','2016-05-08 09:17:29','2016-05-08 09:17:29'),
 	('NKRT','EN001','Merlin','LE','PR','Monster','2016-06-02 20:06:42','2016-06-02 20:06:42'),
 	('NKRT','EN002','Noble Knight Bedwyr','LE','PR','Monster','2016-06-02 20:06:30','2016-06-02 20:06:30'),
