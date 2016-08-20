@@ -5,11 +5,11 @@
 # http://www.sequelpro.com/
 # https://github.com/sequelpro/sequelpro
 #
-# Host: 127.0.0.1 (MySQL 5.7.14)
+# Host: 127.0.0.1 (MySQL 5.7.13)
 # Database: yugioh_db
-# Generation Time: 2016-08-18 17:30:49 +0000
+# Generation Time: 2016-08-20 00:28:47 +0000
 # ************************************************************
- 
+
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -47,12 +47,14 @@ LOCK TABLES `cards` WRITE;
 
 INSERT INTO `cards` (`pack_id`, `id`, `name`, `edition_id`, `rarity_id`, `type`, `created_at`, `updated_at`)
 VALUES
+	('CBLZ','EN036','Repaer of Prophecy','N','SR','Monster','2016-08-19 20:25:06','2016-08-19 20:25:06'),
 	('DCR','002','Nin-Ken','N','C','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('DCR','004','Arsenal Summoner','N','C','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('DCR','005','Guardian Elma','N','C','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('DCR','027','D. D. Warrior Lady','N','SR','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('DCR','078','Kelber','N','C','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('DCR','081','Legendary Flame Lord','N','R','Ritual','2016-02-25 21:46:50','2016-02-25 21:47:23'),
+	('FOTB','EN045','Ancient City - Rainbow Ruins','1E','R','Spell','2016-08-19 20:24:21','2016-08-19 20:24:21'),
 	('IOC','001','Ojama','N','C','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('IOC','004','Terrorking Salmon','N','C','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('IOC','013','Berserk Gorilla','N','R','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
@@ -448,6 +450,9 @@ VALUES
 	('SDY','042','Card Destruction','N','SR','Spell','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('SDY','043','Trap Master','N','C','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('SDY','046','Man-Eater Bug','N','C','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
+	('SHVI','EN036','Red-Eyes Toon Dragon','1E','SR','Toon','2016-08-19 20:16:55','2016-08-19 20:20:54'),
+	('SHVI','EN044','Amorphactor Pain, the Imagination Dracoverlord','1E','SR','Ritual','2016-08-19 20:16:11','2016-08-19 20:20:49'),
+	('SHVI','EN062','Amorphous Persona','1E','UR','Spell','2016-08-19 20:14:47','2016-08-19 20:20:52'),
 	('SKE','001','Blue-Eyes White Dragon','N','SR','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('SKE','004','Rogue Doll','N','C','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('SKE','006','Uraby','N','C','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
@@ -621,7 +626,9 @@ LOCK TABLES `packs` WRITE;
 
 INSERT INTO `packs` (`id`, `name`, `created_at`, `updated_at`)
 VALUES
+	('CBLZ','Cosmo Blazer','2016-08-19 20:12:47','2016-08-19 20:12:47'),
 	('DCR','Dark Crisis','2016-02-25 21:44:29','2016-02-25 21:47:58'),
+	('FOTB','Force of the Breaker','2016-08-19 20:12:26','2016-08-19 20:12:26'),
 	('IOC','Invasion of Chaos','2016-02-25 21:44:29','2016-02-25 21:47:58'),
 	('JUMP','Shonen Jump','2016-05-04 14:19:54','2016-05-04 14:19:54'),
 	('LC01','Legendary Collection: Gameboard Edition','2016-02-25 21:44:33','2016-02-25 21:47:58'),
@@ -648,6 +655,7 @@ VALUES
 	('SDP','Starter Deck Pegasus','2016-02-25 21:45:41','2016-02-25 21:47:58'),
 	('SDSC','Spellcaster\'s Command Structure Deck','2016-02-25 21:45:41','2016-02-25 21:47:58'),
 	('SDY','Starter Deck Yugi','2016-02-25 21:45:41','2016-02-25 21:47:58'),
+	('SHVI','Shining Victories','2016-08-19 20:11:42','2016-08-19 20:20:42'),
 	('SKE','Starter Deck Kaiba Evolution','2016-02-25 21:45:41','2016-02-25 21:47:58'),
 	('SR01','Emperor of Darkness Structue Deck','2016-02-25 21:45:41','2016-02-25 21:47:58'),
 	('SRL','Spell Ruler','2016-02-25 21:45:41','2016-02-25 21:47:58'),
