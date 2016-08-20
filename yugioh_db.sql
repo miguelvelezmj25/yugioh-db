@@ -7,7 +7,7 @@
 #
 # Host: 127.0.0.1 (MySQL 5.7.13)
 # Database: yugioh_db
-# Generation Time: 2016-08-20 00:28:47 +0000
+# Generation Time: 2016-08-20 15:43:31 +0000
 # ************************************************************
 
 
@@ -562,6 +562,27 @@ VALUES
 	('YGLD','ENB40','Tragedy','1E','C','Trap','2016-08-14 20:00:00','2016-08-14 20:00:00'),
 	('YGLD','ENB41','Chimera the Flying Mythical Beast','1E','C','Fusion','2016-08-14 20:00:43','2016-08-14 20:00:43'),
 	('YGLD','ENC00','Black Illusion','LE','SE','Trap','2016-02-25 21:46:50','2016-02-25 21:47:23'),
+	('YGLD','ENC05','Silent Magician LV4','1E','C','Monster','2016-08-20 09:37:02','2016-08-20 09:37:02'),
+	('YGLD','ENC06','Silent Swordsman LV7','1E','C','Monster','2016-08-20 09:36:41','2016-08-20 09:36:41'),
+	('YGLD','ENC07','Silent Swordsman LV5','1E','C','Monster','2016-08-20 09:36:20','2016-08-20 09:36:20'),
+	('YGLD','ENC08','Silent Swordsman LV3','1E','C','Monster','2016-08-20 09:35:42','2016-08-20 09:35:42'),
+	('YGLD','ENC12','The Tricky','1E','C','Monster','2016-08-20 09:35:03','2016-08-20 09:35:03'),
+	('YGLD','ENC16','Green Gadget','1E','C','Monster','2016-08-20 09:29:43','2016-08-20 09:29:43'),
+	('YGLD','ENC17','Red Gadget','1E','C','Monster','2016-08-20 09:33:12','2016-08-20 09:33:12'),
+	('YGLD','ENC18','Yellow Gadget','1E','C','Monster','2016-08-20 09:33:40','2016-08-20 09:33:40'),
+	('YGLD','ENC20','Skilled White Magician','1E','C','Monster','2016-08-20 10:01:18','2016-08-20 10:01:18'),
+	('YGLD','ENC21','Blockman','1E','C','Monster','2016-08-20 10:01:01','2016-08-20 10:01:01'),
+	('YGLD','ENC22','Marshmallon','1E','C','Monster','2016-08-20 10:00:41','2016-08-20 10:00:41'),
+	('YGLD','ENC27','Card of Sanctity','1E','C','Spell','2016-08-20 10:01:47','2016-08-20 10:01:47'),
+	('YGLD','ENC29','Dark Magic Attack','1E','C','Spell','2016-08-20 10:02:04','2016-08-20 10:02:04'),
+	('YGLD','ENC31','Dedication Through Light and Darkness','1E','C','Spell','2016-08-20 10:02:39','2016-08-20 10:02:39'),
+	('YGLD','ENC32','Black Magic Ritual','1E','C','Spell','2016-08-20 09:58:51','2016-08-20 09:58:51'),
+	('YGLD','ENC33','Tricky Spell 4','1E','C','Spell','2016-08-20 09:59:48','2016-08-20 09:59:48'),
+	('YGLD','ENC34','Emblem of Dragon Destroyer','1E','C','Spell','2016-08-20 09:59:28','2016-08-20 09:59:28'),
+	('YGLD','ENC35','Marshmallon Glasses','1E','C','Monster','2016-08-20 09:59:11','2016-08-20 09:59:11'),
+	('YGLD','ENC38','Shattered Axe','1E','C','Trap','2016-08-20 10:03:00','2016-08-20 10:03:00'),
+	('YGLD','ENC39','Stronghold the Moving Fortress','1E','C','Trap','2016-08-20 10:03:27','2016-08-20 10:03:27'),
+	('YGLD','ENC40','Miracle Restoring','1E','C','Trap','2016-08-20 10:03:45','2016-08-20 10:03:45'),
 	('YGLD','ENG01','Slifer the Sky Dragon','LE','UR','Divine','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('YGLD','ENG02','Obelisk the Tormentor','LE','UR','Divine','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('YGLD','ENG03','The Winged Dragon of Ra','LE','UR','Divine','2016-02-25 21:46:50','2016-02-25 21:47:23'),
