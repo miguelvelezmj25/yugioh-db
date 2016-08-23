@@ -7,7 +7,7 @@
 #
 # Host: 127.0.0.1 (MySQL 5.7.14)
 # Database: yugioh_db
-# Generation Time: 2016-08-22 21:44:29 +0000
+# Generation Time: 2016-08-23 21:23:01 +0000
 # ************************************************************
 
 
@@ -386,6 +386,15 @@ VALUES
 	('SDBE','EN017','Honest','N','C','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('SDBE','EN018','Shining Angel','N','C','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('SDBE','EN019','Dragon Shrine','N','SR','Spell','2016-02-25 21:46:50','2016-02-25 21:47:23'),
+	('SDBE','EN020','Silver\'s Cry','N','C','Spell','2016-08-23 17:13:20','2016-08-23 17:13:20'),
+	('SDBE','EN021','Burst Stream of Destruction','N','C','Spell','2016-08-23 17:03:05','2016-08-23 17:03:05'),
+	('SDBE','EN022','Stamping Destruction','N','C','Spell','2016-08-23 17:09:57','2016-08-23 17:09:57'),
+	('SDBE','EN023','A Wingbeat of Giant Dragon','N','C','Spell','2016-08-23 17:10:13','2016-08-23 17:10:13'),
+	('SDBE','EN024','Trade-In','N','C','Spell','2016-08-23 17:10:27','2016-08-23 17:10:27'),
+	('SDBE','EN025','Cards of Consonance','N','C','Spell','2016-08-23 17:12:42','2016-08-23 17:12:42'),
+	('SDBE','EN026','White Elephant\'s Gift','N','C','Spell','2016-08-23 17:10:47','2016-08-23 17:10:47'),
+	('SDBE','EN027','One For One','N','C','Spell','2016-08-23 17:13:51','2016-08-23 17:13:51'),
+	('SDBE','EN029','Dragonic Tactics','N','C','Spell','2016-08-23 17:13:36','2016-08-23 17:13:36'),
 	('SDBE','EN040','Azure-Eyes Silver Dragon','N','UR','Synchro','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('SDHS','EN001','Elemental HERO Shadow Mist','1E','SR','Monster','2016-05-04 08:53:55','2016-05-04 08:53:55'),
 	('SDHS','EN002','Elemental HERO Ocean','1E','C','Monster','2016-05-04 08:56:53','2016-05-04 08:56:53'),
@@ -554,6 +563,15 @@ VALUES
 	('YGLD','ENA20','Right Arm of the Forbidden One','1E','UR','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('YGLD','ENA21','Left Arms of the Forbidden One','1E','UR','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('YGLD','ENA22','Kuriboh','1E','C','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
+	('YGLD','ENA25','Mystic Box','1E','C','Spell','2016-08-23 17:22:12','2016-08-23 17:22:12'),
+	('YGLD','ENA26','Brain Control','1E','C','Spell','2016-08-23 17:15:06','2016-08-23 17:15:06'),
+	('YGLD','ENA28','Spell Shattering Arrow','1E','C','Spell','2016-08-23 17:18:52','2016-08-23 17:18:52'),
+	('YGLD','ENA29','Horn of the Unicorn','1E','C','Spell','2016-08-23 17:17:33','2016-08-23 17:17:33'),
+	('YGLD','ENA30','Mystical Moon','1E','C','Spell','2016-08-23 17:17:15','2016-08-23 17:17:15'),
+	('YGLD','ENA31','Burning Land','1E','C','Spell','2016-08-23 17:16:56','2016-08-23 17:16:56'),
+	('YGLD','ENA33','Detonate','1E','C','Spell','2016-08-23 17:21:54','2016-08-23 17:21:54'),
+	('YGLD','ENA34','Makiu, the Magical Mist','1E','C','Spell','2016-08-23 17:21:37','2016-08-23 17:21:37'),
+	('YGLD','ENA36','Black Luster Ritual','1E','C','Spell','2016-08-23 17:14:33','2016-08-23 17:14:33'),
 	('YGLD','ENA41','Gaia the Dragon Champion','N','C','Fusion','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('YGLD','ENB00','Dark Renewal','LE','SE','Trap','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('YGLD','ENB01','Valkyrion the Magna Warrior','1E','UR','Monster','2016-08-14 19:49:55','2016-08-14 19:49:55'),
