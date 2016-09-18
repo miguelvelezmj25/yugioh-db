@@ -5,9 +5,9 @@
 # http://www.sequelpro.com/
 # https://github.com/sequelpro/sequelpro
 #
-# Host: 127.0.0.1 (MySQL 5.7.14)
+# Host: 127.0.0.1 (MySQL 5.7.13)
 # Database: yugioh_db
-# Generation Time: 2016-08-23 21:23:01 +0000
+# Generation Time: 2016-09-18 03:05:01 +0000
 # ************************************************************
 
 
@@ -294,6 +294,7 @@ VALUES
 	('PGL2','EN015','Number 95: Galaxy-Eyes Dark Matter Dragon','1E','GR','XYZ','2016-08-13 16:04:22','2016-08-13 16:04:22'),
 	('PGL2','EN017','Number 14: Greedy Sarameya','1E','GR','XYZ','2016-08-13 16:03:47','2016-08-13 16:03:47'),
 	('PGL2','EN018','Number 21: Frozen Lady Justice','1E','GR','XYZ','2016-08-13 16:03:11','2016-08-13 16:03:11'),
+	('PGL2','EN019','Parallel Twister','1E','GS','Spell','2016-09-17 23:02:58','2016-09-17 23:02:58'),
 	('PGL2','EN020','Stardust Re-Spark','1E','GS','Trap','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('PGL2','EN021','Santa Claws','1E','GS','Monster','2016-06-03 18:22:41','2016-06-03 18:22:41'),
 	('PGL2','EN022','Right Leg of the Forbidden One','1E','GR','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
@@ -311,7 +312,7 @@ VALUES
 	('PGL2','EN063','Ring of Destruction','1E','GR','Trap','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('PGL2','EN065','Compulsory Evacuation Device','1E','GR','Trap','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('PGL2','EN066','Exchange of the Spirit','1E','GR','Trap','2016-02-25 21:46:50','2016-02-25 21:47:23'),
-	('PGL2','EN067','Karma Cut','1E','Gr','Trap','2016-02-25 21:46:50','2016-02-25 21:47:23'),
+	('PGL2','EN067','Karma Cut','1E','GR','Trap','2016-02-25 21:46:50','2016-09-17 23:01:21'),
 	('PGL2','EN068','Solemn Warning','1E','GR','Trap','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('PGL2','EN069','Traptrix Trap Hole Nightmare','1E','GR','Trap','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('PGL2','EN070','Crush Card Virus','1E','GR','Trap','2016-02-25 21:46:50','2016-02-25 21:47:23'),
