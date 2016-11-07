@@ -5,9 +5,9 @@
 # http://www.sequelpro.com/
 # https://github.com/sequelpro/sequelpro
 #
-# Host: 127.0.0.1 (MySQL 5.7.13)
+# Host: 127.0.0.1 (MySQL 5.7.15)
 # Database: yugioh_db
-# Generation Time: 2016-10-09 19:47:53 +0000
+# Generation Time: 2016-11-07 00:58:08 +0000
 # ************************************************************
 
 
@@ -50,7 +50,7 @@ VALUES
 	('CBLZ','EN036','Repaer of Prophecy','N','SR','Monster','2016-08-19 20:25:06','2016-08-19 20:25:06'),
 	('CT13','EN004','Ebon High Magician','LE','UR','XYZ','2016-09-11 19:50:58','2016-09-11 19:50:58'),
 	('CT13','EN005','D/D/D Flame King Genghis','LE','SR','Fusion','2016-09-11 19:56:08','2016-09-11 19:56:08'),
-	('CT13','EN009','Blue-Eyes Spirit Dragon','LE','UR','Syncchro','2016-09-11 19:58:09','2016-09-11 19:58:09'),
+	('CT13','EN009','Blue-Eyes Spirit Dragon','LE','UR','Synchro','2016-09-11 19:58:09','2016-11-06 19:57:49'),
 	('CT13','EN010','D/D/D Gust King Alexander','LE','SR','Synchro','2016-09-11 19:57:45','2016-09-11 19:57:45'),
 	('DCR','002','Nin-Ken','N','C','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('DCR','004','Arsenal Summoner','N','C','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
