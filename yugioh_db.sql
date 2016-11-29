@@ -7,7 +7,7 @@
 #
 # Host: 127.0.0.1 (MySQL 5.7.15)
 # Database: yugioh_db
-# Generation Time: 2016-11-20 22:28:00 +0000
+# Generation Time: 2016-11-29 01:14:41 +0000
 # ************************************************************
 
 
@@ -26,12 +26,12 @@
 DROP TABLE IF EXISTS `cards`;
 
 CREATE TABLE `cards` (
-  `pack_id` varchar(38) NOT NULL,
-  `id` varchar(38) NOT NULL,
+  `pack_id` varchar(38) NOT NULL DEFAULT '',
+  `id` varchar(38) NOT NULL DEFAULT '',
   `name` varchar(100) NOT NULL DEFAULT '',
-  `edition_id` varchar(38) NOT NULL,
-  `rarity_id` varchar(38) NOT NULL,
-  `type` varchar(38) NOT NULL,
+  `edition_id` varchar(38) NOT NULL DEFAULT '',
+  `rarity_id` varchar(38) NOT NULL DEFAULT '',
+  `type` varchar(38) NOT NULL DEFAULT '',
   `created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `updated_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`pack_id`,`id`),
@@ -40,7 +40,7 @@ CREATE TABLE `cards` (
   CONSTRAINT `cards_editions_id_fk` FOREIGN KEY (`edition_id`) REFERENCES `editions` (`id`),
   CONSTRAINT `cards_packs_id_fk` FOREIGN KEY (`pack_id`) REFERENCES `packs` (`id`),
   CONSTRAINT `cards_rarities_id_fk` FOREIGN KEY (`rarity_id`) REFERENCES `rarities` (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 LOCK TABLES `cards` WRITE;
 /*!40000 ALTER TABLE `cards` DISABLE KEYS */;
@@ -52,7 +52,7 @@ VALUES
 	('CT13','EN005','D/D/D Flame King Genghis','LE','SR','Fusion','2016-09-11 19:56:08','2016-09-11 19:56:08'),
 	('CT13','EN009','Blue-Eyes Spirit Dragon','LE','UR','Synchro','2016-09-11 19:58:09','2016-11-06 19:57:49'),
 	('CT13','EN010','D/D/D Gust King Alexander','LE','SR','Synchro','2016-09-11 19:57:45','2016-09-11 19:57:45'),
-	('DCR','002','Nin-Ken','N','C','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
+	('DCR','002','Nin-Ken Dog','N','C','Monster','2016-02-25 21:46:50','2016-11-20 20:45:15'),
 	('DCR','004','Arsenal Summoner','N','C','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('DCR','005','Guardian Elma','N','C','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('DCR','027','D. D. Warrior Lady','N','SR','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
@@ -455,7 +455,6 @@ VALUES
 	('PGL2','EN087','Naturia Barkion','1E','GR','Synchro','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('PGL2','EN088','Formula Synchron','1E','GR','Synchro','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('PGL2','EN090','Call of the Haunted','1E','GR','Trap','2016-02-25 21:46:50','2016-02-25 21:47:23'),
-	('PGLD','EN','Fire Formation - Tenki','1E','GS','Spell','2016-06-08 20:27:35','2016-06-08 20:27:35'),
 	('PGLD','EN001','Gimmick Puppet Dreary Doll','1E','GS','Monster','2016-05-04 09:02:44','2016-05-04 09:02:44'),
 	('PGLD','EN002','Gimmick Puppet Magnet Doll','1E','GS','Monster','2016-05-04 09:03:25','2016-05-04 09:03:25'),
 	('PGLD','EN004','Big Belly Knight','1E','GS','Monster','2016-05-04 09:03:54','2016-05-04 09:03:54'),
@@ -481,6 +480,7 @@ VALUES
 	('PGLD','EN045','Brotherhood of the Fire Fist - Tiget King','N','GR','XYZ','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('PGLD','EN046','Solar Recharge','N','GS','Spell','2016-06-08 20:26:56','2016-06-08 20:26:56'),
 	('PGLD','EN049','Forbidden Dress','1E','GS','Spell','2016-06-08 20:27:17','2016-06-08 20:27:17'),
+	('PGLD','EN050','Fire Formation - Tenki','1E','GS','Spell','2016-06-08 20:27:35','2016-11-20 20:43:28'),
 	('PGLD','EN053','Cyber Dragon','1E','GS','Monster','2016-05-04 14:24:42','2016-05-04 14:24:42'),
 	('PGLD','EN054','Goldd, Wu-Lord of Dark World','1E','GS','Monster','2016-05-04 14:21:59','2016-05-04 14:21:59'),
 	('PGLD','EN056','Chimeratech','1E','GR','Fusion','2016-02-25 21:46:50','2016-02-25 21:47:23'),
@@ -882,12 +882,12 @@ DELIMITER ;
 DROP TABLE IF EXISTS `editions`;
 
 CREATE TABLE `editions` (
-  `id` varchar(38) NOT NULL,
+  `id` varchar(38) NOT NULL DEFAULT '',
   `name` varchar(38) NOT NULL DEFAULT '',
   `created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `updated_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 LOCK TABLES `editions` WRITE;
 /*!40000 ALTER TABLE `editions` DISABLE KEYS */;
@@ -910,12 +910,12 @@ UNLOCK TABLES;
 DROP TABLE IF EXISTS `packs`;
 
 CREATE TABLE `packs` (
-  `id` varchar(38) NOT NULL,
+  `id` varchar(38) NOT NULL DEFAULT '',
   `name` varchar(100) NOT NULL DEFAULT '',
   `created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `updated_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 LOCK TABLES `packs` WRITE;
 /*!40000 ALTER TABLE `packs` DISABLE KEYS */;
@@ -979,13 +979,13 @@ UNLOCK TABLES;
 DROP TABLE IF EXISTS `rarities`;
 
 CREATE TABLE `rarities` (
-  `id` varchar(38) NOT NULL,
+  `id` varchar(38) NOT NULL DEFAULT '',
   `name` varchar(38) NOT NULL DEFAULT '',
   `description` varchar(1000) NOT NULL DEFAULT '',
   `created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `updated_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 LOCK TABLES `rarities` WRITE;
 /*!40000 ALTER TABLE `rarities` DISABLE KEYS */;
