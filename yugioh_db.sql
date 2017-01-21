@@ -7,7 +7,7 @@
 #
 # Host: 127.0.0.1 (MySQL 5.7.15)
 # Database: yugioh_db
-# Generation Time: 2016-12-10 21:26:10 +0000
+# Generation Time: 2017-01-21 21:43:00 +0000
 # ************************************************************
 
 
@@ -159,7 +159,7 @@ VALUES
 	('LCYW','EN176','Mind Control','1E','UR','Spell','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('LCYW','EN196','Rite of Spirit','N','C','Trap','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('LCYW','EN237','Toon Summoned Skull','1E','R','Toon','2016-02-25 21:46:50','2016-02-25 21:47:23'),
-	('LCYW','EN242','Kycoo The Ghost Destroyer','1E','SE','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
+	('LCYW','EN242','Kycoo the Ghost Destroyer','1E','SE','Monster','2016-02-25 21:46:50','2017-01-21 16:27:22'),
 	('LCYW','EN249','Levia-Dragon -  Daedalus','1E','SE','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('LCYW','EN290','Dark Mirror Force','1E','R','Trap','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('LCYW','EN297','Threatening Roar','1E','SE','Trap','2016-02-25 21:46:50','2016-02-25 21:47:23'),
@@ -245,11 +245,11 @@ VALUES
 	('LOB','102','Metal Dragon','N','R','Fusion','2016-08-22 16:42:45','2016-08-22 16:42:45'),
 	('LOB','105','Skull Red Bird','N','C','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('LOB','117','Succubus Knight','N','C','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
-	('LOB','120','Right Leg of The Forbidden One','N','UR','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
-	('LOB','121','Left Leg of The Forbidden One','N','UR','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
-	('LOB','122','Right Arm of The Forbidden One','N','UR','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
-	('LOB','123','Left Arm of The Forbidden One','N','UR','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
-	('LOB','124','Exodia The Forbidden One','N','UR','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
+	('LOB','120','Right Leg of the Forbidden One','N','UR','Monster','2016-02-25 21:46:50','2017-01-21 16:25:40'),
+	('LOB','121','Left Leg of the Forbidden One','N','UR','Monster','2016-02-25 21:46:50','2017-01-21 16:25:40'),
+	('LOB','122','Right Arm of the Forbidden One','N','UR','Monster','2016-02-25 21:46:50','2017-01-21 16:25:40'),
+	('LOB','123','Left Arm of the Forbidden One','N','UR','Monster','2016-02-25 21:46:50','2017-01-21 16:25:40'),
+	('LOB','124','Exodia the Forbidden One','N','UR','Monster','2016-02-25 21:46:50','2017-01-21 16:24:43'),
 	('MFC','083','Dark Cat with White Tail','1E','C','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('MIL1','EN002','Curse of Dragonfire','1E','UR','Monster','2016-05-08 09:04:01','2016-05-08 09:04:01'),
 	('MIL1','EN003','Holding Arms','1E','SR','Monster','2016-05-08 09:08:41','2016-05-08 09:08:41'),
@@ -349,7 +349,7 @@ VALUES
 	('MP16','EN205','Toon Buster Blader','1E','R','Toon','2016-09-11 19:42:57','2016-09-11 19:42:57'),
 	('MP16','EN206','Deskbot 007','1E','C','Pendulum','2016-12-10 16:24:05','2016-12-10 16:24:50'),
 	('MP16','EN207','Deskbot 008','1E','C','Pendulum','2016-12-10 16:24:05','2016-12-10 16:24:50'),
-	('MP16','EN210','Buster Blader, The Dragon Destroyer Swordsman','1E','SE','Fusion','2016-09-11 19:56:53','2016-09-11 19:56:53'),
+	('MP16','EN210','Buster Blader, the Dragon Destroyer Swordsman','1E','SE','Fusion','2016-09-11 19:56:53','2017-01-21 16:28:12'),
 	('MP16','EN211','Shiranui Samuraisaga','1E','C','Synchro','2016-09-28 20:12:05','2016-09-28 20:12:05'),
 	('MP16','EN212','Shiranui Shogunsaga','1E','UR','Synchro','2016-09-11 19:59:09','2016-09-11 19:59:09'),
 	('MP16','EN213','Aegaion the Sea Castrum','1E','C','XYZ','2016-09-28 20:11:22','2016-09-28 20:11:22'),
@@ -485,7 +485,7 @@ VALUES
 	('PGL2','EN022','Right Leg of the Forbidden One','1E','GR','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('PGL2','EN023','Left Leg of the Forbidden One','1E','GR','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('PGL2','EN024','Right Arm of the Forbidden One','1E','GR','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
-	('PGL2','EN026','Exodia the Forbidden One','1E','GR','Monster','2016-10-02 20:33:34','2016-11-20 12:49:11'),
+	('PGL2','EN026','Exodia the Forbidden One','1E','GR','Monster','2016-10-02 20:33:34','2017-01-21 16:24:43'),
 	('PGL2','EN027','Sinister Serpent','1E','GS','Monster','2016-06-03 18:24:10','2016-06-03 18:24:10'),
 	('PGL2','EN032','Mystical Beast of Serket','1E','GS','Monster','2016-06-03 18:24:55','2016-06-03 18:24:55'),
 	('PGL2','EN034','Metaion, the Timelord','1E','GS','Monster','2016-06-03 18:25:18','2016-06-03 18:25:18'),
@@ -713,7 +713,7 @@ VALUES
 	('SDLI','EN033','Beckoning Light','1E','C','Trap','2016-11-20 17:24:48','2016-11-20 17:25:44'),
 	('SDLI','EN034','Skill Successor','1E','C','Trap','2016-11-20 17:24:48','2016-11-20 17:25:44'),
 	('SDLI','EN035','Breakthrough Skill','1E','C','Trap','2016-11-20 17:24:48','2016-11-20 17:25:44'),
-	('SDLI','EN036','Michael, The Arch-Ligthsworn','1E','UR','Synchro','2016-02-25 21:46:50','2016-02-25 21:47:23'),
+	('SDLI','EN036','Michael, the Arch-Ligthsworn','1E','UR','Synchro','2016-02-25 21:46:50','2017-01-21 16:28:29'),
 	('SDP','001','Relinquished','N','UR','Ritual','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('SDP','012','Jigen Bakudan','N','C','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('SDP','020','Blue-Eyes Toon Dragon','N','C','Toon','2016-02-25 21:46:50','2016-02-25 21:47:23'),
@@ -724,7 +724,7 @@ VALUES
 	('SDP','038','Black Illusion Ritual','N','C','Spell','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('SDP','040','Graceful Charity','N','SR','Spell','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('SDP','050','Gryphon Wing','N','SR','Trap','2016-02-25 21:46:50','2016-02-25 21:47:23'),
-	('SDSC','EN001','Endymion, The Master Magician','N','UR','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
+	('SDSC','EN001','Endymion, the Master Magician','N','UR','Monster','2016-02-25 21:46:50','2017-01-21 16:28:43'),
 	('SDSC','EN002','Disenchanter','N','C','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('SDSC','EN003','Defender, the Magical Knight','N','C','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('SDSC','EN004','Hannibal Necromancer','N','C','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
@@ -867,7 +867,7 @@ VALUES
 	('YGLD','ENA08','Catapult Turtle','1E','C','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('YGLD','ENA13','Griffore','1E','C','Monster','2016-10-02 20:12:38','2016-10-02 20:12:38'),
 	('YGLD','ENA16','Mammoth Graveyard','1E','C','Monster','2016-10-02 20:12:00','2016-10-02 20:12:00'),
-	('YGLD','ENA17','Exodia the Forbidden One','1E','UR','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
+	('YGLD','ENA17','Exodia the Forbidden One','1E','UR','Monster','2016-02-25 21:46:50','2017-01-21 16:24:43'),
 	('YGLD','ENA18','Right Leg of the Forbidden One','1E','UR','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('YGLD','ENA19','Left Leg of the Forbidden One','1E','UR','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('YGLD','ENA20','Right Arm of the Forbidden One','1E','UR','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
