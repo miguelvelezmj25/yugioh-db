@@ -7,7 +7,7 @@
 #
 # Host: 127.0.0.1 (MySQL 5.7.15)
 # Database: yugioh_db
-# Generation Time: 2017-01-21 21:43:00 +0000
+# Generation Time: 2017-02-05 21:04:01 +0000
 # ************************************************************
 
 
@@ -563,6 +563,34 @@ VALUES
 	('PSV','077','Sword Hunter','N','C','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('PSV','093','The All-Seeing White Tiger','N','C','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('PSV','098','Souls of the Forgotten','N','C','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
+	('SD10','EN001','Ancient Gear Gadjiltron Dragon','TODO','UR','Monster','2017-02-05 15:59:03','2017-02-05 15:59:03'),
+	('SD10','EN002','Ancient Gear Gadjiltron Chimera','TODO','C','Monster','2017-02-05 15:59:04','2017-02-05 15:59:04'),
+	('SD10','EN003','Ancient Gear Engineer','TODO','C','Monster','2017-02-05 15:59:04','2017-02-05 15:59:04'),
+	('SD10','EN004','Boot-Up Soldier - Dread Dynamo','TODO','C','Monster','2017-02-05 15:59:04','2017-02-05 15:59:04'),
+	('SD10','EN005','Mechanicalchaser','TODO','C','Monster','2017-02-05 15:59:04','2017-02-05 15:59:04'),
+	('SD10','EN009','Cannon Soldier','TODO','C','Monster','2017-02-05 15:59:53','2017-02-05 15:59:53'),
+	('SD10','EN010','Gear Golem the Moving Fortress','TODO','C','Monster','2017-02-05 15:59:53','2017-02-05 15:59:53'),
+	('SD10','EN012','Ancient Gear Golem','TODO','C','Monster','2017-02-05 16:00:11','2017-02-05 16:00:11'),
+	('SD10','EN013','Ancient Gear Beast','TODO','C','Monster','2017-02-05 16:00:11','2017-02-05 16:00:11'),
+	('SD10','EN014','Ancient Gear Soldier','TODO','C','Monster','2017-02-05 16:00:11','2017-02-05 16:00:11'),
+	('SD10','EN015','Ancient Gear','TODO','C','Monster','2017-02-05 16:00:11','2017-02-05 16:00:11'),
+	('SD10','EN016','Ancient Gear Cannon','TODO','C','Monster','2017-02-05 16:00:11','2017-02-05 16:00:11'),
+	('SD10','EN017','Ancient Gear Workshop','TODO','C','Spell','2017-02-05 16:00:11','2017-02-05 16:00:11'),
+	('SD10','EN018','Ancient Gear Tank','TODO','C','Spell','2017-02-05 16:00:11','2017-02-05 16:00:11'),
+	('SD10','EN019','Ancient Gear Explosive','TODO','C','Spell','2017-02-05 16:00:11','2017-02-05 16:00:11'),
+	('SD10','EN020','Ancient Gear Fist','TODO','C','Spell','2017-02-05 16:00:11','2017-02-05 16:00:11'),
+	('SD10','EN021','Ancient Gear Factory','TODO','C','Spell','2017-02-05 16:00:11','2017-02-05 16:00:11'),
+	('SD10','EN022','Ancient Gear Drill','TODO','C','Spell','2017-02-05 16:00:11','2017-02-05 16:00:11'),
+	('SD10','EN023','Ancient Gear Castle','TODO','C','Spell','2017-02-05 16:00:11','2017-02-05 16:00:11'),
+	('SD10','EN026','Heavy Storm','TODO','C','Spell','2017-02-05 16:00:46','2017-02-05 16:00:46'),
+	('SD10','EN028','Weapon Change','TODO','C','Spell','2017-02-05 16:00:54','2017-02-05 16:00:54'),
+	('SD10','EN029','Machine Duplication','TODO','C','Spell','2017-02-05 16:00:54','2017-02-05 16:00:54'),
+	('SD10','EN030','Pot of Avarice','TODO','C','Spell','2017-02-05 16:00:54','2017-02-05 16:00:54'),
+	('SD10','EN032','Ultimate Offering','TODO','C','Trap','2017-02-05 16:01:13','2017-02-05 16:01:13'),
+	('SD10','EN033','Sakuretsu Armor','TODO','C','Trap','2017-02-05 16:01:13','2017-02-05 16:01:13'),
+	('SD10','EN034','Micro Ray','TODO','C','Trap','2017-02-05 16:01:13','2017-02-05 16:01:13'),
+	('SD10','EN035','Rare Metalmorph','TODO','C','Trap','2017-02-05 16:01:13','2017-02-05 16:01:13'),
+	('SD10','EN036','Covering Fire','TODO','C','Trap','2017-02-05 16:01:13','2017-02-05 16:01:13'),
 	('SDBE','EN001','Blue-Eyes White Dragon','N','UR','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('SDBE','EN002','Rabidragon','N','C','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('SDBE','EN003','Alexandrite Dragon','N','C','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
@@ -1028,6 +1056,7 @@ VALUES
 	('PGL2','Premium Gold: Return of the Bling ','2016-02-25 21:45:41','2016-02-25 21:47:58'),
 	('PGLD','Premium Gold','2016-02-25 21:45:41','2016-02-25 21:47:58'),
 	('PSV','Pharaoh\'s Servant','2016-02-25 21:45:41','2016-02-25 21:47:58'),
+	('SD10','Structure Deck: Machine Re-Volt','2017-02-05 15:58:43','2017-02-05 15:58:46'),
 	('SDBE','Saga of Blue-Eyes White Dragon','2016-02-25 21:45:41','2016-02-25 21:47:58'),
 	('SDDC','Dragons Collide Structure Deck\n','2016-11-20 14:58:48','2016-11-20 14:58:48'),
 	('SDHS','Structure Deck: Hero\'s Strike','2016-02-25 21:45:41','2016-02-25 21:47:58'),
