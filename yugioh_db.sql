@@ -7,7 +7,7 @@
 #
 # Host: 127.0.0.1 (MySQL 5.7.17)
 # Database: yugioh_db
-# Generation Time: 2017-08-06 18:56:07 +0000
+# Generation Time: 2017-08-06 19:50:33 +0000
 # ************************************************************
 
 
@@ -48,8 +48,12 @@ LOCK TABLES `cards` WRITE;
 INSERT INTO `cards` (`pack_id`, `id`, `name`, `edition_id`, `rarity_id`, `type`, `created_at`, `updated_at`)
 VALUES
 	('CBLZ','EN036','Repaer of Prophecy','N','SR','Monster','2016-08-19 20:25:06','2016-08-19 20:25:06'),
+	('CT13','EN001','Slifer the Sky Dragon','LE','SE','Divine','2017-08-06 15:33:38','2017-08-06 15:33:38'),
+	('CT13','EN002','Obelisk the Tormentor','LE','SE','Divine','2017-08-06 15:33:38','2017-08-06 15:33:38'),
+	('CT13','EN003','Dark Magician','LE','UR','Monster','2017-08-06 15:33:38','2017-08-06 15:33:38'),
 	('CT13','EN004','Ebon High Magician','LE','UR','XYZ','2016-09-11 19:50:58','2016-09-11 19:50:58'),
 	('CT13','EN005','D/D/D Flame King Genghis','LE','SR','Fusion','2016-09-11 19:56:08','2016-09-11 19:56:08'),
+	('CT13','EN008','Blue-Eyes White Dragon','LE','UR','Monster','2017-08-06 15:33:38','2017-08-06 15:33:38'),
 	('CT13','EN009','Blue-Eyes Spirit Dragon','LE','UR','Synchro','2016-09-11 19:58:09','2016-11-06 19:57:49'),
 	('CT13','EN010','D/D/D Gust King Alexander','LE','SR','Synchro','2016-09-11 19:57:45','2016-09-11 19:57:45'),
 	('DCR','002','Nin-Ken Dog','N','C','Monster','2016-02-25 21:46:50','2016-11-20 20:45:15'),
@@ -220,9 +224,15 @@ VALUES
 	('LDK2','ENK37','Fusion Reserve','1E','C','Trap','2016-11-19 17:04:05','2016-11-20 12:57:04'),
 	('LDK2','ENK40','Blue-Eyes Ultimate Dragon','1E','UR','Fusion','2016-11-19 17:04:12','2016-11-20 12:57:04'),
 	('LDK2','ENK41','First of the Dragons','1E','C','Fusion','2016-11-19 17:04:12','2016-11-20 12:57:04'),
+	('LDK2','ENS01','Slifer the Sky Dragon','LE','UR','Divine','2017-08-06 15:38:51','2017-08-06 15:49:46'),
+	('LDK2','ENS02','Obelisk the Tormentor','LE','UR','Divine','2017-08-06 15:38:51','2017-08-06 15:45:26'),
+	('LDK2','ENS03','The Winged Dragon of Ra','LE','UR','Divine','2017-08-06 15:38:51','2017-08-06 15:50:11'),
 	('LDK2','ENS04','Dark Burning Attack','LE','SE','Spell','2016-11-19 17:05:27','2016-11-20 12:56:14'),
 	('LDK2','ENS05','Dark Burning Magic','LE','SE','Spell','2016-11-19 17:05:27','2016-11-20 12:56:09'),
 	('LDK2','ENS06','Eternal Soul','LE','SE','Trap','2016-11-19 17:05:27','2016-11-20 12:56:07'),
+	('LDK2','ENT01','Token','LE','UR','Token','2017-08-06 15:38:51','2017-08-06 15:38:51'),
+	('LDK2','ENT02','Token','LE','UR','Token','2017-08-06 15:38:51','2017-08-06 15:38:51'),
+	('LDK2','ENT03','Token','LE','UR','Token','2017-08-06 15:38:51','2017-08-06 15:38:51'),
 	('LDK2','ENY01','The Legendary Exodia Incarnate','1E','UR','Monster','2016-11-19 17:00:15','2016-11-20 12:57:04'),
 	('LDK2','ENY02','Ties of the Brethren','1E','UR','Spell','2016-11-19 17:00:44','2016-11-20 12:57:04'),
 	('LDK2','ENY03','Obliterate!!!','1E','UR','Trap','2016-11-19 17:00:44','2016-11-20 12:57:04'),
@@ -485,6 +495,7 @@ VALUES
 	('PGL2','EN022','Right Leg of the Forbidden One','1E','GR','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('PGL2','EN023','Left Leg of the Forbidden One','1E','GR','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('PGL2','EN024','Right Arm of the Forbidden One','1E','GR','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
+	('PGL2','EN025','Left Arm of the Forbidden One','1E','GR','Monster','2017-08-06 15:26:23','2017-08-06 15:26:23'),
 	('PGL2','EN026','Exodia the Forbidden One','1E','GR','Monster','2016-10-02 20:33:34','2017-01-21 16:24:43'),
 	('PGL2','EN027','Sinister Serpent','1E','GS','Monster','2016-06-03 18:24:10','2016-06-03 18:24:10'),
 	('PGL2','EN032','Mystical Beast of Serket','1E','GS','Monster','2016-06-03 18:24:55','2016-06-03 18:24:55'),
@@ -534,6 +545,7 @@ VALUES
 	('PGLD','EN021','Number C88: Gimmick Puppet Disaster Leo','N','GS','XYZ','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('PGLD','EN024','Number 31: Embodiment of Punishment','1E','GS','XYZ','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('PGLD','EN027','Rank-Up-Magic Argent Chaos Force','N','GS','Spell','2016-06-08 20:26:36','2016-06-08 20:26:36'),
+	('PGLD','EN030','Obelisk the Tormentor','N','GS','Divine','2017-08-06 15:49:24','2017-08-06 15:49:24'),
 	('PGLD','EN034','Lonefire Blossom','N','GS','Monster','2016-05-04 14:23:57','2016-05-04 14:23:57'),
 	('PGLD','EN037','Gagaga Magician','1E','GS','Monster','2016-05-04 14:22:51','2016-05-04 14:22:51'),
 	('PGLD','EN040','Darkflare Dragon','N','GS','Monster','2016-05-04 14:23:10','2016-05-04 14:23:10'),
@@ -1015,7 +1027,7 @@ UNLOCK TABLES;
 
 DELIMITER ;;
 /*!50003 SET SESSION SQL_MODE="ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION" */;;
-/*!50003 CREATE */ /*!50017 DEFINER=`miguelvelezmj25`@`localhost` */ /*!50003 TRIGGER `name` BEFORE INSERT ON `cards` FOR EACH ROW if NEW.name in (SELECT name from cards) THEN
+/*!50003 CREATE */ /*!50017 DEFINER=`miguelvelezmj25`@`localhost` */ /*!50003 TRIGGER `name` BEFORE INSERT ON `cards` FOR EACH ROW if NEW.name in (SELECT id from cards) THEN
 	SIGNAL SQLSTATE '45000' set message_text='Same name';
 END IF */;;
 DELIMITER ;
