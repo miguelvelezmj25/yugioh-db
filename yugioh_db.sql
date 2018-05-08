@@ -5,9 +5,9 @@
 # http://www.sequelpro.com/
 # https://github.com/sequelpro/sequelpro
 #
-# Host: 127.0.0.1 (MySQL 5.7.17)
+# Host: 127.0.0.1 (MySQL 5.7.22)
 # Database: yugioh_db
-# Generation Time: 2017-08-06 21:40:34 +0000
+# Generation Time: 2018-05-05 22:46:37 +0000
 # ************************************************************
 
 
@@ -259,6 +259,32 @@ VALUES
 	('LDK2','ENY33','Secret Village of the Spellcasters','1E','C','Spell','2016-11-19 17:02:37','2016-11-20 12:57:04'),
 	('LDK2','ENY35','Mirror Force','1E','C','Trap','2016-11-19 17:02:43','2016-11-20 12:57:04'),
 	('LDK2','ENY39','Backup Soldier','1E','C','Trap','2016-11-19 17:02:54','2016-11-20 12:57:04'),
+	('LEDD','ENA00','Dark Magician the Dragon Knight','1E','UR','Monster','2017-10-30 21:18:51','2018-05-05 18:43:35'),
+	('LEDD','ENA01','Dark Magician','1E','C','Monster','2018-05-05 18:03:16','2018-05-05 18:43:37'),
+	('LEDD','ENA02','Dark Magician Girl','1E','C','Monster','2018-05-05 18:38:33','2018-05-05 18:43:42'),
+	('LEDD','ENA03','Apprentice Illusion Magician','1E','UR','Monster','2017-10-30 21:19:33','2018-05-05 18:43:39'),
+	('LEDD','ENA04','Magician\'s Robe','1E','C','Monster','2017-10-30 21:19:33','2018-05-05 18:43:50'),
+	('LEDD','ENA05','Magician\'s Rod','1E','C','Monster','2017-10-30 21:19:33','2018-05-05 18:43:41'),
+	('LEDD','ENA07','Legendary Knight Timaeus','1E','C','Monster','2017-10-30 21:19:42','2018-05-05 18:43:44'),
+	('LEDD','ENA08','Legendary Knight Critias','1E','C','Monster','2017-10-30 21:19:42','2018-05-05 18:44:10'),
+	('LEDD','ENA09','Legendary Knight Hermos','1E','C','Monster','2017-10-30 21:19:42','2018-05-05 18:44:12'),
+	('LEDD','ENA13','Absolute Crusader','1E','C','Monster','2017-10-30 21:19:56','2018-05-05 18:44:09'),
+	('LEDD','ENA15','Dark Magical Circle','1E','UR','Spell','2017-10-30 21:20:04','2018-05-05 18:45:23'),
+	('LEDD','ENA16','Illusion Magic','1E','C','Spell','2017-10-30 21:20:04','2018-05-05 18:45:31'),
+	('LEDD','ENA17','Dark Magic Expanded','1E','C','Spell','2017-10-30 21:20:04','2018-05-05 18:45:30'),
+	('LEDD','ENA21','The Eye of Timaeus','1E','C','Spell','2017-10-30 21:20:16','2018-05-05 18:45:54'),
+	('LEDD','ENA22','The Fang of Critias','1E','C','Spell','2017-10-30 21:20:16','2018-05-05 18:45:53'),
+	('LEDD','ENA23','The Claw of Hermos','1E','C','Spell','2017-10-30 21:20:16','2018-05-05 18:45:52'),
+	('LEDD','ENA24','Legend of Heart','1E','C','Spell','2017-10-30 21:20:16','2018-05-05 18:45:50'),
+	('LEDD','ENA28','Eternal Soul','1E','UR','Trap','2018-05-05 18:38:33','2018-05-05 18:46:05'),
+	('LEDD','ENA29','Magician Navigation','1E','UR','Trap','2017-10-30 21:20:31','2018-05-05 18:46:07'),
+	('LEDD','ENA33','Tyrant Wing','1E','C','Trap','2017-10-30 21:20:42','2018-05-05 18:46:06'),
+	('LEDD','ENA35','Amulet Dragon','1E','C','Fusion','2017-10-30 21:20:47','2018-05-05 18:44:45'),
+	('LEDD','ENA36','Dark Magician Girl the Dragon Knight','1E','C','Fusion','2017-10-30 21:20:47','2018-05-05 18:45:00'),
+	('LEDD','ENA38','Tyrant Burst Dragon','1E','C','Fusion','2017-10-30 21:20:54','2018-05-05 18:44:52'),
+	('LEDD','ENA39','Mirror Force Dragon','1E','C','Fusion','2017-10-30 21:20:54','2018-05-05 18:44:46'),
+	('LEDD','ENA40','Time Magic Hammer','1E','C','Fusion','2017-10-30 21:20:54','2018-05-05 18:44:59'),
+	('LEDD','ENA43','Red-Eyes Black Dragon Sword','1E','C','Fusion','2017-10-30 21:21:07','2018-05-05 18:44:53'),
 	('LOB','039','Kurama','N','C','Monster','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('LOB','057','Fissure','N','R','Spell','2016-02-25 21:46:50','2016-02-25 21:47:23'),
 	('LOB','058','Trap Hole','N','SR','Trap','2016-02-25 21:46:50','2016-02-25 21:47:23'),
@@ -1055,8 +1081,9 @@ UNLOCK TABLES;
 
 DELIMITER ;;
 /*!50003 SET SESSION SQL_MODE="ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION" */;;
-/*!50003 CREATE */ /*!50017 DEFINER=`miguelvelezmj25`@`localhost` */ /*!50003 TRIGGER `name` BEFORE INSERT ON `cards` FOR EACH ROW if NEW.name in (SELECT id from cards) THEN
-	SIGNAL SQLSTATE '45000' set message_text='Same name';
+/*!50003 CREATE */ /*!50017 DEFINER=`miguelvelezmj25`@`localhost` */ /*!50003 TRIGGER `name_check` BEFORE INSERT ON `cards` FOR EACH ROW if NEW.name in (SELECT name from cards) THEN
+	SIGNAL SQLSTATE '45000'set
+	message_text='Same name';
 END IF */;;
 DELIMITER ;
 /*!50003 SET SESSION SQL_MODE=@OLD_SQL_MODE */;
@@ -1123,6 +1150,7 @@ VALUES
 	('LCJW','Legendary Collection 4 Joey\'s World Mega Pack','2016-02-25 21:44:37','2016-02-25 21:47:58'),
 	('LCYW','Legendary Collection 3 Yugi\'s World Mega Pack','2016-02-25 21:44:38','2016-02-25 21:47:58'),
 	('LDK2','Legendary Decks II','2016-11-19 16:58:10','2016-11-19 16:58:10'),
+	('LEDD','Legendary Dragon Decks ','2017-10-30 21:15:08','2017-10-30 21:15:08'),
 	('LOB','Legend of Blue-Eyes White Dragon','2016-02-25 21:44:38','2016-02-25 21:47:58'),
 	('MFC','Magician\'s Force','2016-02-25 21:44:39','2016-02-25 21:47:58'),
 	('MIL1','Millennium Pack','2016-05-03 21:44:23','2016-05-03 21:44:37'),
